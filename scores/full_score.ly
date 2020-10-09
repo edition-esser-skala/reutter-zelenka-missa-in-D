@@ -27,11 +27,13 @@
 				\new StaffGroup \with { \smallGroupDistance } <<
 					\new Staff <<
 						\set Staff.instrumentName = \markup \center-column { "Clarino I, II" "in D" }
+						% \transpose c d
 						\partcombine \KyrieClarinoI \KyrieClarinoII
 					>>
 				>>
 				\new Staff \with { \smallStaffDistance } {
 					\set Staff.instrumentName = \markup \center-column { "Timpani" "in D–A" }
+					% \transpose c d
 					\KyrieTimpani
 				}
 				\new StaffGroup <<
@@ -92,7 +94,7 @@
 				\new FiguredBass { \KyrieBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 70 }
+			\midi { \tempo 2 = 120 }
 		}
 	}
 }

@@ -466,7 +466,7 @@ bc =
 	\context {
 		\Score
 		\compressFullBarRests
-		% \override BarNumber.break-visibility = #'#(#f #t #t)
+		\override BarNumber.break-visibility = #'#(#f #t #t)
 	}
 	\context {
 		\StaffGroup
@@ -662,6 +662,8 @@ tocLabel = #(define-music-function
 
 tempoKyrie = \tempoMarkup "Allegro"
 
+vv =  \markup \remark  "Vv."
+vvE = \markup \remarkE "Vv."
 
 \include "notes/clno1.ly"
 \include "notes/clno2.ly"
