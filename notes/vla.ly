@@ -89,3 +89,53 @@ KyrieViola = {
 		R1.\fermataMarkup \bar "|." %93 finis
 	}
 }
+
+GloriaViola = {
+	\relative c' {
+		\clef alto
+		\key d \major \time 4/4 \tempoGloria
+		fis16\fE fis fis fis fis fis fis fis e e d d d d e a
+		a a a a a a a a a4 r
+		r2 r4 a16 a a a
+		g h h h cis cis cis cis d fis, fis fis a a a a
+		g e fis d e cis e cis d d h d d e e cis %5
+		d4 r r2
+		R1*4 %10
+		r2 d8.\fE d16 e8 e
+		e4 r8 g fis fis fis e
+		d d, d' e16 fis g8 g, g' fis
+		e4 fis8 g a4 a,
+		d r r2 %15
+		R1*10 %25
+		r2 r4 r8 a'\fE
+		d,4 r8 h' e, fis16 g a8 g
+		fis4 r r2
+		r e8. d16 cis8. h16
+		a8 h16 cis d8. cis16 h4 ais %30
+		h r r2
+		h8 h16 a! gis8 e' e d d cis
+		h4 cis8 d e4 a,
+		R1
+		r2 r8 d4 c8 %35
+		h e4 d8 cis cis4 d16 e
+		d4. a8 d4 e8 a,
+		a a a4 a8 fis'16 g a g fis e
+		fis8 g a e d4 r8 a'
+		a4 r8 e e4 r8 a %40
+		a4 r8 a a4 r
+		R1*8 %49
+		r8 d, d d cis8. h16 a8 cis %50
+		d e16 fis h,8 e cis a16 h cis d e8
+		d4 r8 d d4 cis
+		d r r2
+		R1
+		r4 r8 a16 h cis d e4 d8~ %55
+		d cis h4 a r
+		R1
+		r4 r8 d h h16 h e8 cis
+		a4 r r r8 d16 e
+		fis g a4 g8 fis h e, a %60
+		d,16 e fis g a8 a, d16 e fis g a8 a,
+		d16 e fis g a8 a, d4 r\fermata \bar "|." %62 finis
+	}
+}

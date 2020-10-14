@@ -93,3 +93,68 @@ KyrieViolinoII = {
 		R1.\fermataMarkup \bar "|." %93 finis
 	}
 }
+
+GloriaViolinoII = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \tempoGloria
+		\mvTr d'16\fE-\tutti a fis d a' d, fis d a' a' a a a d, g e
+		fis d a fis d fis' fis fis e8 a, r4
+		r2 r4 d'16 a fis d
+		g e g e g e g e fis d a fis d a' d fis
+		h, g' h, g' a, g' cis, g' fis a d, h' e, a, cis e %5
+		fis8 d, r4 r2
+		R1*4 %10
+		r2 \mvTr a'8.\f-\tutti a16 g8 fis
+		e8. e16 fis8 g a a, r4
+		fis'8 fis fis e d fis h, h'
+		a8. a16 a8-! h-! r d-! cis8.\trill cis16
+		d4 r r8 \mvTr d,\p-\vv g g, %15
+		g' fis e fis16 g a8 a, a' h
+		cis16 a' a a a, a' a a fis8 h16( a) gis8 h
+		e,16( d) cis( h) a8( fis') \appoggiatura cis h4.\trill a8
+		a8 fis g! e fis d e fis
+		g fis g e fis gis ais fis %20
+		h d16 cis h8 a16 g fis e d e cis8.\trill cis16
+		h4 r fis''8\mp e16 d cis8 d
+		\appoggiatura d e4 r8 e e( dis) dis( e16 fis)
+		\appoggiatura fis8 g4 r8 g g fis16 e fis8 fis
+		fis e4\trill e8 d( e) fis( e16 d) %25
+		cis8( d16 e) cis8.\trill cis16 d8 \mvTr a'16(\f-\tutti g) fis( e) d( cis)
+		h8 g'16( fis) e( d) cis( h) a8 g16 fis fis8 e
+		d a' d d, a'4 a8 g
+		fis d16 e fis-\critnote gis a8 a gis a4
+		r fis8. e16 d8 cis cis4 %30
+		h4 r r2
+		fis'8 d e gis fis h e, a~
+		a16 d, g8~ g fis16 d g4 fis8 fis
+		e a16 a a8 gis a g fis4~
+		fis8 e4 r8 r4 r16 d e fis %35
+		g d g4 fis8 e a4 g8
+		fis fis4 g16 a a8 g4 g8~
+		g fis4 e8 fis4 r
+		r2 a8. a16 a8 d
+		d^\critnote cis cis d16 cis h4 r8 e~ %40
+		e d4 cis8 d4 r
+		r2 r4 r8 \mvTr a\p-\vv
+		d, a' d,16 e fis g a4 r
+		r8 cis( h a) r e( fis d)
+		r h'-! e,-! e'-!\f fis-! h,-! e-! a,-! %45
+		a4\p gis8.\trill a16 a8 a, r \mvTr e''\f-\tutti
+		e( d) d( cis) h4 r8 h~
+		h a a gis \tempoCumSancto a4 r
+		R1*2 %50
+		r2 r8 a a a
+		fis8. e16 d8 fis g a16 h e,8 a
+		fis d16 e fis e fis gis a4 r8 a
+		fis4 gis a r8 g
+		fis fis4 e8 r2 %55
+		r r8 d16 e fis g a8~
+		a g4 fis8 e a16 g fis8 e
+		a8. g16 fis8 a g2
+		a8 d,16 e fis g a4 g8 fis8. g16
+		a8 e e' cis d4 r8 cis %60
+		d4 r8 cis d4 r8 cis
+		d4 r8 cis d4 r\fermata \bar "|." %62 finis
+	}
+}

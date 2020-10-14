@@ -164,6 +164,96 @@ KyrieAltoLyrics = \lyricmode {
 	son. %92 finis
 }
 
+GloriaAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \autoBeamOff \tempoGloria
+		\mvTr a'8.\fE^\tuttiE a16 a4 a8 a a g
+		fis2 e4 \mvTr a8\pE^\solo fis
+		h g16([ fis)] e8 fis16([ g)] a8. a16 a4
+		\mvTr g4.\fE^\tutti g8 fis([ g)] a([ h)]
+		g16[ a fis g] e[ fis g a] fis[ g a d,] d8[ cis] %5
+		d8 \mvTr fis\pE^\solo fis fis e4 fis8 e
+		d4. e16 d cis4 cis8 d16([ e)]
+		fis([ e fis g] fis8) e d d e fis
+		g[ e fis d] e[ cis] fis[ e16 d]
+		cis4.\trill cis8 h4 r %10
+		r2 \mvTr a'8.\fE^\tuttiE a16 g8([ fis)]
+		e8. e16 fis8([ g)] a4. a8
+		fis fis fis e d2(
+		a'8.) a16 a8([ h)] fis4( e)\trill
+		fis r r2 %15
+		R1*12 %27
+		r4 r8 \mvTr d\fE^\tuttiE a'4 a8 g
+		fis([ d16 e] fis[^\critnote gis)] a8 a([ gis)] a4
+		r fis8. e16 d8 cis cis4 %30
+		h8 fis' g4 fis8 h h ais
+		fis fis r4 r2
+		r4 r8 fis g4 fis8 fis
+		e a16 a a8[ gis] a[ g] fis4~
+		fis8 e4 r8 r2 %35
+		r8 g4 fis8 e( a4 g8)
+		fis fis4 g16([ a)] a8 g4 g8~
+		g fis fis([ e)] fis4 r
+		R1*12 %50
+		r2 r8 \mvTr a\fE^\tuttiE a a
+		fis8. e16 d8 fis g a16 h e,8 a
+		fis d16([ e)] fis([ e fis gis)] a4 r8 a(
+		fis4 gis) a r8 g
+		fis fis4 e8 r2 %55
+		r r8 d16[ e] fis[ g a8]~
+		a g4 fis8 e a16([ g] fis8) e
+		a8.([ g16] fis8) a g2
+		a8 d,16[( e] fis[ g] a4) g8 fis8.([ g16]
+		a8) e e4 a8 g4 g8 %60
+		fis4 e fis e
+		fis( e)\trill d r\fermata \bar "|." %62 finis
+	}
+}
+
+GloriaAltoLyrics = \lyricmode {
+	Glo -- ri -- a in ex -- cel -- sis
+	De -- o. Et in
+	ter -- ra pax ho -- mi -- ni -- bus
+	bo -- nae vo -- lun --
+	ta -- _ _ _ %5
+	tis. Lau -- da -- mus te, be -- ne --
+	di -- ci -- mus te, ad -- o --
+	ra -- mus te, glo -- ri -- fi --
+	ca -- _ _
+	_ mus te. %10
+	Gra -- ti -- as
+	a -- gi -- mus ti -- bi
+	pro -- pter ma -- gnam glo --
+	ri -- am tu --
+	am. %15
+
+	Qui tol -- lis pec -- %28
+	ca -- ta mun -- di:
+	Mi -- se -- re -- re no -- %30
+	bis. Qui tol -- lis pec -- ca -- ta
+	mun -- di,
+	qui se -- des ad
+	dex -- te -- ram Pa -- _ _
+	tris: %35
+	Mi -- se -- re --
+	re, mi -- se -- re -- _ _
+	re no -- bis.
+
+	Cum San -- cto %51
+	Spi -- ri -- tu in glo -- ri -- a De -- i
+	Pa -- tris, a -- men, a --
+	men, a --
+	men, a -- men, %55
+	a -- _
+	_ _ men, a -- men,
+	a -- men, a --
+	men, a -- men, a --
+	men, a -- men, a -- men, %60
+	a -- men, a -- men,
+	a -- men. %62 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

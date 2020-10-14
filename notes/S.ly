@@ -160,6 +160,106 @@ KyrieSopranoLyrics = \lyricmode {
 	son. %92 finis
 }
 
+GloriaSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \autoBeamOff \tempoGloria
+		\mvTr d'8\fE^\tuttiE d16 d d8 d e([ fis d)] e
+		d2^\critnote cis4 r
+		r2 r4 d8 d
+		d d cis e e8. d16 d4
+		r4 e8 cis fis e e8.([\trill d16)] %5
+		d4 r r2
+		R1*4 %10
+		r4 \mvTr fis4.\fE^\tuttiE fis8 e([ d)]
+		cis8. cis16 d8([ e)] fis d a h16([ cis)]
+		d2~ d8 cis16([ h)] e8([ d]
+		cis8.) cis16 d4 d( cis)
+		d \mvTr d4.\pE^\soloE cis16 d h4~ %15
+		h8 cis16([ d)] e8 d cis8.([ h16)] a4
+		e'4. fis8 d16[ cis h cis] d[ fis e d]
+		cis8.[ d16] e8 a,16([ h)] gis8.\trill a16 h4
+		R1*9 %27
+		r8 \mvTr a\fE^\tutti d4 cis8 fis h,([ e)]
+		a, d d cis h4\trill a
+		r2 r4 r8 cis %30
+		d4 h8 e e d cis8.([\trill h16)]
+		h4 r r2
+		r r8 h16([ cis)] d4
+		d8 cis h e16 d cis[ d] e4 d8~
+		d cis4 r8 r2 %35
+		R1
+		r8 d4 cis8 h4( cis8[ d]
+		e) d d([ cis)] d4 r
+		R1*2 %40
+		r2 \mvTr a8.\pE^\solo a16 a8 d
+		cis d e cis fis4 e8 cis
+		d cis d8. d16 cis4 r8 e
+		e4 d8 cis h a16([ gis)] a4
+		d cis h8([ gis)] a([ h)] %45
+		cis4( h)\trill a r
+		R1*6 %52
+		r8 \mvTr d\fE^\tuttiE d d cis8. h16 a8 cis
+		d e16 fis h,8 e cis a16([ h)] cis[( d e8])
+		a, d4 cis8 r4 r8 h16[ cis] %55
+		d[ e] fis4 e d cis8
+		h([ e)] a, d4( cis8) d cis(
+		d8.[ e16] fis8) d d4( cis)\trill
+		d r8 a16[ h] cis[ d] e4 d8~
+		d cis r cis( d4.) cis8 %60
+		d4 cis d cis
+		d( cis)\trill d r\fermata \bar "|." %62 finis
+	}
+}
+
+GloriaSopranoLyrics = \lyricmode {
+	Glo -- ri -- a in ex -- cel -- sis
+	De -- o.
+	Et in
+	ter -- ra pax ho -- mi -- ni -- bus
+	bo -- nae vo -- lun -- ta -- %5
+	tis.
+
+	Gra -- ti -- as %11
+	a -- gi -- mus ti -- bi pro -- pter
+	ma -- gnam glo --
+	ri -- am tu --
+	am. Do -- mi -- ne De -- %15
+	us, Rex coe -- le -- stis,
+	De -- us Pa -- _
+	_ ter o -- mni -- po -- tens.
+
+	Qui tol -- lis pec -- ca -- %28
+	ta, pec -- ca -- ta mun -- di,
+	qui %30
+	tol -- lis pec -- ca -- ta mun --
+	di,
+	qui se --
+	des ad dex -- te -- ram Pa -- _ _
+	tris: %35
+
+	Mi -- se -- re --
+	re no -- bis.
+
+	Quo -- ni -- am tu %41
+	so -- lus, so -- lus san -- ctus, tu
+	so -- lus Do -- mi -- nus, tu
+	so -- lus al -- tis -- si -- mus,
+	Je -- su, Je -- su %45
+	Chri -- ste.
+
+	Cum San -- cto Spi -- ri -- tu in %53
+	glo -- ri -- a De -- i Pa -- tris, a --
+	men, a -- men, a -- %55
+	_ _ _ _ men,
+	a -- men, a -- men, a --
+	men, a --
+	men, a -- _ _ _
+	men, a -- men, %60
+	a -- men, a -- men,
+	a -- men. %62 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

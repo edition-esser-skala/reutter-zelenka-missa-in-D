@@ -39,3 +39,47 @@ KyrieClarinoI = {
 		e2 r r\fermata \bar "|." %93 finis
 	}
 }
+
+GloriaClarinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoGloria
+		e8.\fE e16 e4 r2
+		e'8 f g f16 e d4 r
+		R1
+		r2 c8 d e c
+		r2 e16 d e f e8 d16 c %5
+		c8 r r4 r2
+		R1*4 %10
+		r2 g'8.\fE g16 f8 e
+		d8. d16 e8 f g g g16 a f g
+		e8 e e16 f d e \pao c4 r
+		r g'8 f16 e e8 e d16 c d e
+		c4 r r2 %15
+		R1*14 %29
+		g'8.\fE f16 e4 r \pa e,8 e16 e %30
+		e4 \pd r r2
+		r r8 g' f f~
+		f f d e f16 e f g e4
+		R1
+		r2 r8 e4 d8 %35
+		\pa c c \pd f16 g e f d4 r
+		\pa r8 e e f16 g a8. g16 \pd f e d c
+		d d e f d c d e c8 r r4
+		R1*9 %47
+		r2 \tempoCumSancto r
+		R1*2 %50
+		r2 r8 g'\fE g f
+		e8. d16 c8 e f16 e f g f8 e16 d
+		e4 r r2
+		R1
+		r8 e e d d r r4 %55
+		R1
+		r2 r8 g16 f e8 d
+		g8. f16 e8 g f4 r8 f
+		e e r4 r r8 g16 f
+		e8 d d g g f f8. f16 %60
+		e8 e d16 c d e e8 e d16 c d e
+		e8 e d16 c d e c4 r\fermata \bar "|." %62 finis
+	}
+}

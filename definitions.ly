@@ -661,6 +661,8 @@ tocLabel = #(define-music-function
 
 
 tempoKyrie = \tempoMarkup "Allegro"
+tempoGloria = \tempoMarkup "Allegro"
+	tempoCumSancto = \tempoMarkup "Più allegro"
 
 vv =  \markup \remark  "Vv."
 vvE = \markup \remarkE "Vv."
