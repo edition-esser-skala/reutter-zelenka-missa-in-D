@@ -152,6 +152,105 @@ GloriaViolinoI = {
 	}
 }
 
+CredoViolinoI = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \tempoCredo
+		\mvTr d'8\fE-\tutti fis e a fis16( g a8) r fis
+		e16 a, cis d e a, cis e fis( g a8) r e
+		cis16( d e8) cis16( e fis8) h, a' h, gis'
+		a4 r r2
+		R1*4 %8
+		r2 \mvTrr fis4.\mp-\vv fis8
+		h a! a gis a e16 d cis e fis gis %10
+		a8 a h a16 h \appoggiatura a g8.\trill g16 fis a h cis
+		d8 fis,4 e8 d d d e16 fis
+		g8 g g fis e e e fis16 g
+		a8 a a g fis fis fis gis16 a
+		h4. gis8 a16 d cis h a8 gis %15
+		\appoggiatura gis a4 r r8 e\p a,4
+		r8 d h4 r8 h e4
+		r8 cis cis,4 r8 fis' fis,4
+		r8 fis' h,4 r8 e e,4
+		r8 fis' h,8.\trill a16 a8 e a,4 %20
+		R1*4
+		r4 \tempoEtIncarnatus \mvTr fis''-!\fE-\tutti fis-! fis-! %25
+		fis8 fis, fis' e d4-! d-!
+		dis-! e-! d4.\trill d8
+		cis-\tenuto cis, fis ais cis2
+		dis4-! dis-! cis8-\tenuto a eis cis
+		cis'4.-! cis8-! cis4 h %30
+		h4. h8 ais-\tenuto fis ais cis
+		\tempoEtHomo fis4-! fis-! eis fis~ \noBreak
+		fis eis8.\trill eis16 fis2\fermata \bar "||"
+		\key d \dorian \tempoCrucifixus
+			\mvTr f,4.\pE-\vv-\markup \remark "con sordino" f8 f4 e \noBreak
+		e8. e16 e8 f g4 g8 g %35
+		f g16 a g8 f \tempoPilato f4( e)\fermata
+		\tempoPassus a2. g4~
+		g fis2 e4~
+		\tempoEtSepultus e d cis4. cis8 \noBreak
+		h2 r\fermata \bar "||" %40
+		\key d \major \time 6/4 \tempoEtResurrexit \newSpacingSection
+			\set Staff.timeSignatureFraction = 3/2
+			\override Staff.TimeSignature.style = #'single-digit
+			\mvTr d16\f-\tutti-\markup \remark "senza sordino" d d d fis fis fis fis a a a a d8 fis16 g a8 a a g16 fis \noBreak
+		e fis e fis e8 fis g fis16 e fis h a g fis4-! e-!
+		d16 a' a g fis g fis e d e d cis d d, d d fis fis fis fis a a a a
+		d a' a g fis g fis e d e d cis d cis d e fis e fis g a fis g a
+		h a g a h cis d h cis g fis e a fis a cis d a fis d d' a fis d %45
+		h' a gis fis e h cis d cis e a a, fis' a fis d cis e a cis, h d gis h,
+		a a a a cis cis cis cis e e e e a4 r r
+		a a gis a8 \mvTrr gis,[\mp-\vv a h cis a]
+		gis fis gis e fis gis a a, a' h a g
+		fis e fis d e fis g g, g' fis e d %50
+		e g fis e16 d cis8. cis16 h8 ais h cis d h
+		e d cis h cis a d fis16 e d8 e fis d
+		e d e cis a cis d cis d h g h
+		cis h cis cis' fis, ais h h, h' cis d h
+		e, d e d cis a d cis d fis e g %55
+		fis e fis d g e a a, a' h cis a
+		e e' cis h a cis d cis d d, fis d
+		g g, g' fis e cis d g a g a a,
+		d e fis d e fis g g, g' a g fis
+		e g16 fis e8 fis g e fis ais16 gis fis8 gis ais fis %60
+		h, h' ais gis? ais fis h ais h h, e g
+		fis e fis g fis ais, h fis' h a? gis fis
+		e fis gis e fis gis a a, a' h a g
+		fis e fis d e fis g fis e fis g e
+		a h cis a h cis d d, cis d h cis %65
+		d cis d e d cis h cis d h cis d
+		e d e fis gis e a gis16 fis gis8 e a gis
+		fis gis16 a h8 a gis e a gis fis a h h,
+		cis h a h cis d e d e fis e d
+		cis cis' ais gis ais fis h h, h' a? gis e %70
+		a gis a a, fis' d cis d e d cis a
+		fis' d e d e gis a h cis a, h cis
+		d cis d e fis d cis h cis a h cis
+		d cis d e d cis h cis d h cis d
+		e d e d cis a d cis h a g g' %75
+		fis gis? ais gis fis ais h h, h' a? gis e
+		a gis a a, cis a e' d e fis e d
+		cis h cis a h cis d cis d e fis d
+		gis e a gis a a, e' e e d cis cis'
+		fis, h cis h cis cis, fis e16 d cis8 h a cis %80
+		e e e fis gis fis e fis gis e fis gis
+		a gis16 a h8 a h e, a gis a a, e' e
+		cis a h d' h8.\trill h16 \mvTr a16\fE-\tuttiE e' e e a e e e a e e a
+		gis h gis h gis h gis h e, h' gis h cis e e e cis e e e e, d' d d
+		cis e e e cis e e e e, d' d d cis e, e e e e e e a e e e %85
+		a cis h cis e, a gis a e gis e gis a e cis h a g fis e d d' c d
+		h g' d c h c d c h a g a h a gis? fis e e' d e e, e' d e
+		cis a' e d cis d e d cis h a h cis h ais gis fis fis' e fis fis, fis' e fis
+		d h' fis e d fis cis fis h, d a d g fis e d cis d e a, cis d e g,
+		fis d fis g a g fis e d d' c? d h g' d c h c d c h a g a %90
+		h a gis fis e e' d e e, e' d e cis a' e d cis d e d cis h a h
+		cis h ais gis fis fis' e fis fis, fis' e fis d h' fis e d fis cis fis h, d a d
+		g fis e d cis d e a, cis d e g, fis d' fis g a e d g cis, fis h, e
+		a, fis' e d a d cis d e,8 cis' d,4 r r\fermata \bar "|." %94 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

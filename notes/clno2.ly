@@ -83,3 +83,56 @@ GloriaClarinoII = {
 		c c g g e4 r\fermata \bar "|." %62 finis
 	}
 }
+
+CredoClarinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoCredo
+		c'4\fE g16 e g g e4 r
+		r8 g g16 g g g c8 c c c
+		g4 g8 e' d d d_\critnote d
+		d4 r r2
+		R1*7 %11
+		r2 r8 c,\pE g' c
+		d d d16 e c d g,8 g g c16 d
+		e8 e e16 f d e c4 r
+		r2 r8 e d d %15
+		d r r4 r2
+		R1*16 \noBreak %32
+		R1\fermataMarkup \bar "||"
+		\tempoCrucifixus R1*6 \noBreak %39
+		R1\fermataMarkup \bar "||" %40
+		\time 6/4 \tempoEtResurrexit \newSpacingSection
+			\set Staff.timeSignatureFraction = 3/2
+			\override Staff.TimeSignature.style = #'single-digit
+			r4 c,16\fE c c c e e e e e8 c'16 d e8 e e d16 c \noBreak
+		g8 g g c d g, c g c4 g8_\critnote g16 g
+		e4 r r r c16 c c c e e e e
+		e e' e d c g e g c c g g e c e g c g c d e c d e
+		f c c c f f f f f f f f e c g e' e e c g e' e c g %45
+		d'4 r r e8 e d4 d8[ d]
+		d4 r g,16 g g g d'4 r r
+		d8 e d4 d d r r
+		R1.*7 %55
+		r1*3/4 r4 r g,8\pE c
+		d4 d d8 d c g c d e c
+		c4 f8 c d g, c g c4 g
+		e r r r1*3/4
+		R1.*12 %71
+		r1*3/4 g8\pE g g g g g
+		c g c c c c g g g g g g
+		c4 r r r1*3/4
+		R1.*8 %82
+		r1*3/4 r
+		r4 r d\fE d d r
+		r r d d d g, %85
+		d'8 e d4 d d e e
+		e8 c f4 r r d d
+		d d r r e, e
+		c' c2 d8 c c4 g8 g
+		e4 r r r1*3/4 %90
+		R1.*2
+		r1*3/4 c'8 c g e g g
+		e'16 d c g c8 c g4 e r r\fermata \bar "|." %94 finis
+	}
+}

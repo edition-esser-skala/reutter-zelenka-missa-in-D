@@ -33,14 +33,14 @@
        (stretchability . 0))
 
 	top-system-spacing =
-    #'((basic-distance . 15)
-       (minimum-distance . 15)
+    #'((basic-distance . 12)
+       (minimum-distance . 12)
        (padding . -100)
        (stretchability . 0))
 
 	top-markup-spacing =
-    #'((basic-distance . 5)
-       (minimum-distance . 5)
+    #'((basic-distance . 2)
+       (minimum-distance . 2)
        (padding . -100)
        (stretchability . 0))
 
@@ -663,6 +663,14 @@ tocLabel = #(define-music-function
 tempoKyrie = \tempoMarkup "Allegro"
 tempoGloria = \tempoMarkup "Allegro"
 	tempoCumSancto = \tempoMarkup "Più allegro"
+tempoCredo = \tempoMarkup "Allegro"
+	tempoEtIncarnatus = \tempoMarkup "Adagio"
+	tempoEtHomo = \tempoMarkup "Adagio"
+	tempoCrucifixus = \tempoMarkup "Andante un poco"
+	tempoPilato = \tempoMarkup "Adagio"
+	tempoPassus = \tempoMarkup "Andante"
+	tempoEtSepultus = \tempoMarkup "Adagio"
+	tempoEtResurrexit = \tempoMarkup "Allegro"
 
 vv =  \markup \remark  "Vv."
 vvE = \markup \remarkE "Vv."

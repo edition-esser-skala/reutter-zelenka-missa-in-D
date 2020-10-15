@@ -75,3 +75,39 @@ GloriaTimpani = {
 		c4 g8. g16 c4 r\fermata \bar "|." %62 finis
 	}
 }
+
+CredoTimpani = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoCredo
+		c4\fE g8. g16 c4 r
+		r8 g g g16 g c8 c c c
+		g4 r r2
+		g4 r r2
+		R1*28 \noBreak %32
+		R1\fermataMarkup \bar "||"
+		\tempoCrucifixus R1*6 \noBreak %39
+		R1\fermataMarkup \bar "||" %40
+		\time 6/4 \tempoEtResurrexit \newSpacingSection
+			\set Staff.timeSignatureFraction = 3/2
+			\override Staff.TimeSignature.style = #'single-digit
+			c8\fE c16 c c8 c c c c c16 c c8 c c c \noBreak
+		g g16 g g8 c g g c g g4 g8 g16 g
+		c4 r r c8 c16 c c8 c c c
+		c c16 c c8 c c c c c16 c c8 c c c
+		c4 r g c8 c16 c c8 c c c %45
+		r1*3/4 r4 r c8. c16
+		g4 r g8. g16 g4 r r
+		r r c8. c16 g4 r r
+		R1.*35 %83
+		r1*3/4 g8.\fE g16 g4 r
+		g8. g16 g4 r g8. g16 g4 r %85
+		r1*3/4 g8. g16 c4 r
+		R1.*2
+		r1*3/4 r4 g g8 g
+		c4 r r r1*3/4 %90
+		R1.*2
+		r1*3/4 c8 c g c g g
+		c8. c16 g8 g16 g g8 g c4 r r\fermata \bar "|." %94 finis
+	}
+}

@@ -254,6 +254,155 @@ GloriaAltoLyrics = \lyricmode {
 	a -- men. %62 finis
 }
 
+CredoAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \autoBeamOff \tempoCredo
+		\mvTr fis4\fE^\tuttiE e r8 fis fis fis
+		e4 e r8 a a h
+		a4 a8 a gis( a4 gis8)
+		a4 r r2
+		R1 %5
+		r4 \mvTr d,4.\pE^\soloE d8 e fis
+		g8. g16 g4 g8 g16 g g8 g
+		g4 fis r g8 g16 g
+		g8 fis e d cis4.\trill cis8
+		h4 r r2 %10
+		R1*9 %19
+		r2 r4 a' %20
+		a^\critnote a8 a a8. gis16 gis4
+		r8 gis h gis fis4 fis8 gis
+		a4 a8 a a([ gis)] gis fis
+		eis4 fis8 fis fis4( eis)
+		fis \tempoEtIncarnatus \mvTr fis\fE^\tuttiE fis fis %25
+		fis fis h h
+		a!( g! gis4.) gis8
+		ais2 r4 fis
+		fis fis8 fis fis4 eis
+		r e8 e e4 d %30
+		gis4. gis8 fis2
+		\tempoEtHomo r4 fis eis fis \noBreak
+		fis( eis8.) eis16 fis2\fermata \bar "||"
+		\key d\dorian \tempoCrucifixus \mvTr f4.\pE^\soloE f8 f4 e \noBreak
+		e8 e e f g4 g8 g %35
+		f g16([ a)] g8 f \tempoPilato f4 e\fermata
+		\tempoPassus a2. g4
+		g fis fis e
+		\tempoEtSepultus e d cis?4. cis8 \noBreak
+		h2 r\fermata \bar "||" %40
+		\key d \major \time 6/4 \tempoEtResurrexit \newSpacingSection
+			\set Staff.timeSignatureFraction = 3/2
+			\override Staff.TimeSignature.style = #'single-digit
+			R1.*2
+		\mvTr fis'4\fE^\tuttiE fis e fis fis r
+		fis fis e fis fis r
+		g4. g8 g4 fis fis a %45
+		h2 a4 fis e2
+		e4 r r r1*3/4
+		R1.*3 %50
+		r4 r \mvTr fis\pE^\soloE d4. e8 fis4
+		g8([ fis)] e4 a fis2 a4
+		g8[ fis g e a g] fis[ e fis d g fis]
+		e[ d e cis fis e] d4. e8 fis4
+		r g a fis8([ e] fis4) g %55
+		a8([ g)] a4 h cis,4. d8 e4
+		r e a fis8([ e)] d4 a'
+		h4.( a8 g4) fis fis( e)
+		d r r r1*3/4
+		R1.*16 %75
+		r4 r fis fis4. fis8 e4
+		e e a a gis2
+		a g4 fis4.( g8) a4
+		h8[ gis] e4. fis8 gis4. fis8 eis4
+		fis fis( eis) fis a a %80
+		a gis2 r4 gis gis
+		fis2 gis4 a a gis
+		a a( gis) a2 \mvTr e4\fE^\tuttiE
+		e e e e e e
+		e e e e2 e4~ %85
+		e8[ fis] gis4. gis8 a4 a2~
+		a4 g2 r4 h2~
+		h4 a2 r4 fis2~
+		fis4 fis2 g4( fis e)
+		fis a2~ a4 g2 %90
+		r4 h2~ h4 a2
+		r4 fis2 fis4 fis2(
+		g4 fis e) fis r r
+		a fis e fis r r\fermata \bar "|." %94 finis
+	}
+}
+
+CredoAltoLyrics = \lyricmode {
+	\xE Pa -- trem o -- mni -- po --
+	ten -- tem, fa -- cto -- rem \x
+	coe -- li et ter --
+	rae.
+
+	\xE Et in u -- num %6
+	Do -- mi -- num, Do -- mi -- num Je -- sum
+	Chri -- stum, Fi -- li -- um
+	De -- i u -- ni -- ge -- ni --
+	tum. %10
+
+	Qui %20
+	pro -- pter nos ho -- mi -- nes
+	et pro -- pter no -- stram sa --
+	lu -- tem de -- scen -- dit, \x de --
+	scen -- dit de coe --
+	lis. \xE Et in -- car -- %25
+	na -- tus, \x in -- car --
+	na -- tus
+	est \xE de
+	Spi -- ri -- tu San -- cto
+	ex Ma -- ri -- a %30
+	Vir -- gi -- ne,
+	\x et ho -- mo
+	\xE fa -- ctus est. \x
+	Cru -- ci -- fi -- xus
+	e -- ti -- am pro no -- bis sub %35
+	Pon -- ti -- o Pi -- la -- to,
+	pas -- sus
+	et se -- pul -- tus,
+	et se -- pul -- tus
+	est. %40
+
+	\xE Et re -- sur -- re -- xit, %43
+	et re -- sur -- re -- xit
+	ter -- ti -- a di -- e se -- %45
+	cun -- dum Scri -- ptu --
+	ras. \x
+
+	Et i -- te -- rum %51
+	ven -- tu -- rus est cum
+	glo -- _
+	_ _ ri -- a
+	iu -- di -- ca -- re %55
+	vi -- vos et mor -- tu -- os,
+	cu -- ius re -- gni non
+	e -- rit fi --
+	nis.
+
+	\xE Con -- fi -- te -- or %76
+	u -- num ba -- ptis -- ma
+	\x in re -- mis -- si --
+	o -- _ _ _ nem pec --
+	ca -- to -- rum. Et ex -- %80
+	pe -- cto re -- sur --
+	re -- cti -- o -- nem mor --
+	tu -- o -- rum, et
+	vi -- tam ven -- tu -- ri, et
+	vi -- tam ven -- tu -- ri __ %85
+	sae -- cu -- li, a --
+	men, a --
+	men, a --
+	men, a --
+	men, a -- men, %90
+	a -- men,
+	a -- men, a --
+	men,
+	a -- men, a -- men. %94 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

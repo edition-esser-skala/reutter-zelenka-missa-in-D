@@ -207,6 +207,129 @@ GloriaBassoLyrics = \lyricmode {
 	a -- men. %62 finis
 }
 
+CredoBassoNotes = {
+	\relative c {
+		\clef bass
+		\key d \major \time 4/4 \autoBeamOff \tempoCredo
+		\mvTr d4\fE^\tuttiE a' r8 fis e d
+		a'4 a r8 fis fis gis
+		a4 a8 d, e([ a] e4)
+		a, r r2
+		R1*4 %8
+		r2 \mvTr fis'4.\pE^\soloE e8
+		d cis h4 a a'~ %10
+		a8 fis g fis16 g e8. e16 d4
+		r8 d d e16([ fis)] g4 g
+		r8 e e fis16([ g)] a8. a16 a4
+		r8 fis4 g16([ a)] h4 h8 a
+		gis([ h16 a] gis[ fis e d] cis[ h)] cis([ d)] e8([ e,)] %15
+		a4 r r2
+		R1*8 %24
+		r4 \tempoEtIncarnatus \mvTr fis'\fE^\tuttiE e e %25
+		d d r2
+		h4 e eis4. eis8
+		fis2 r4 fis
+		his, his8 his cis4 cis
+		r cis8 h ais4 h %30
+		eis4. eis8 e2
+		\tempoEtHomo r4 d cis cis8([ his)] \noBreak
+		cis4. cis8 fis,2\fermata \bar "||"
+		\key d \dorian \tempoCrucifixus \mvTr d'4.\pE^\soloE d8 a'4 a, \noBreak
+		a'8 a, a' g16([ f)] e4 e8 e %35
+		d8. d16 g8 gis \tempoPilato a4 a,\fermata
+		\tempoPassus r a'8([ g] fis4) e
+		a d, a'4. g8
+		\tempoEtSepultus fis4 h, fis'4. fis,8 \noBreak
+		h2 r\fermata \bar "||" %40
+		\key d \major \time 6/4 \tempoEtResurrexit \newSpacingSection
+			\set Staff.timeSignatureFraction = 3/2
+			\override Staff.TimeSignature.style = #'single-digit
+			R1.*2
+		\mvTr d4\fE^\tuttiE fis a d d, r
+		d fis a d d, r
+		g4. fis8 e4 d d8([ e)] fis4 %45
+		gis2 a4 d, e2
+		a,4 r r r1*3/4
+		R1.*24 %71
+		r1*3/4 r4 \mvTr a'2\pE^\soloE
+		a a4 a a a
+		fis4. e8 d4 fis fis h
+		g4. g8 a4 fis fis4. e8 %75
+		fis2 r4 r1*3/4
+		R1.*6 %82
+		r1*3/4 r4 r \mvTr a\fE^\tuttiE
+		e e8([ fis)] gis4 a2 gis4
+		a4. a8 gis4 a8[ gis a h cis a] %85
+		cis[ d] e4 e, a,8 a'[ fis e fis d]
+		g![ g, g' a g fis] e[ fis gis e fis gis]
+		a[ gis a h a gis] fis[ gis ais gis ais fis]
+		h[ h, h' a g fis] e[^\critnote g] a4 a,
+		d fis8[ e d fis] g[ g, g' a g fis] %90
+		e[ fis gis e fis gis] a[ gis a h a gis]
+		fis[ gis ais fis gis ais] h[ h, h' a? g? fis]
+		e[ g] a4 a, d r r
+		fis8([ g] a4 a,) d r r\fermata \bar "|." %94 finis
+	}
+}
+
+CredoBassoLyrics = \lyricmode {
+	Pa -- trem o -- mni -- po --
+	ten -- tem, fa -- cto -- rem
+	coe -- li et ter --
+	rae.
+
+	Et ex %9
+	Pa -- tre na -- tum an -- %10
+	te o -- mni -- a sae -- cu -- la.
+	De -- um de De -- o,
+	lu -- men de lu -- mi -- ne,
+	De -- um ve -- rum de
+	De -- o ve -- %15
+	ro.
+
+	Et in -- car -- %25
+	na -- tus,
+	in -- car -- na -- tus
+	est de
+	Spi -- ri -- tu San -- cto
+	ex Ma -- ri -- a %30
+	Vir -- gi -- ne,
+	et ho -- mo
+	fa -- ctus est.
+	Cru -- ci -- fi -- xus
+	e -- ti -- am pro no -- bis sub %35
+	Pon -- ti -- o Pi -- la -- to,
+	pas -- sus
+	et se -- pul -- tus,
+	et se -- pul -- tus
+	est. %40
+
+	Et re -- sur -- re -- xit, %43
+	et re -- sur -- re -- xit
+	ter -- ti -- a di -- e se -- %45
+	cun -- dum Scri -- ptu --
+	ras.
+
+	Et %72
+	u -- nam san -- ctam ca --
+	tho -- li -- cam et a -- po --
+	sto -- li -- cam Ec -- cle -- si -- %75
+	am.
+
+	Et %83
+	vi -- tam ven -- tu -- ri
+	sae -- cu -- li, a -- %85
+	_ _ _ men, a --
+	_ _
+	_ _
+	_ _ _ _
+	men, a -- _ %90
+	_ _
+	_ _
+	_ _ _ men,
+	a -- men. %94 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

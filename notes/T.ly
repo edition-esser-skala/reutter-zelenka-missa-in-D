@@ -204,6 +204,153 @@ GloriaTenoreLyrics = \lyricmode {
 	a -- men. %62 finis
 }
 
+CredoTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key d \major \time 4/4 \autoBeamOff \tempoCredo
+		\mvTr a4\fE^\tuttiE a r8 a a a
+		a4 a r8 a a d
+		a4 a8 fis' e2
+		e4 r r2
+		R1 %5
+		r4 \mvTr h4.\pE^\solo h8 h a!
+		g8. g16 g4 g8 h16 a g([ a)] h([ cis)]
+		d4 d, r e'8 e16 e
+		e8 d cis h fis4. fis8
+		h4 r r2 %10
+		R1*5 %15
+		cis8. d16 e8 h cis a d4~
+		d8 h e4. d8 cis h
+		ais8.([ h16)] cis4 r e8 d16([ cis)]
+		d([ cis h cis] d[ e d e] cis8.) d16 e4
+		a8 a,16 h gis8. a16 a4 r %20
+		R1*4
+		r4 \tempoEtIncarnatus \mvTr cis\fE^\tuttiE cis cis %25
+		d d r2
+		h4 h8 h h4. h8
+		ais2 r4 cis
+		dis dis8 dis cis4 cis
+		r cis8 cis cis4 d %30
+		d4. d8 cis2
+		\tempoEtHomo r4 h cis cis8([ dis)] \noBreak
+		cis4. cis8 cis2\fermata \bar "||"
+		\key d \dorian \tempoCrucifixus \mvTr d4.\pE^\soloE d8 d4 cis \noBreak
+		cis8 cis cis d e4 e8 e %35
+		d e16([ f)] e8 d \tempoPilato d4 cis\fermata
+		\tempoPassus r cis dis e8[ d]
+		cis cis d2 cis8([ h)]
+		\tempoEtHomo ais cis h2( ais8) ais \noBreak
+		h2 r\fermata \bar "||" %40
+		\key d \major \time 6/4 \tempoEtResurrexit \newSpacingSection
+			\set Staff.timeSignatureFraction = 3/2
+			\override Staff.TimeSignature.style = #'single-digit
+			R1.*2
+		\mvTr a4\fE^\tuttiE a a a a r
+		a a a a a r
+		d4. d8 e4 a, a d %45
+		d2 a4 h a( gis)
+		a r r r1*3/4
+		R1.*11 %58
+		r4 \mvTr d\pE^\soloE cis h4. h8 h4
+		r cis h ais4. ais8 ais4 %60
+		r fis' e d2 cis4~
+		cis d( cis) h2 r4
+		r e d cis2 cis4
+		r d c h h e
+		cis8([ h)] a4 r r a g %65
+		fis2 fis4 h h a
+		gis4. a8 h4 r h cis
+		d4.( cis8) h([ e)] cis4 cis d
+		e4. gis,8 a h gis([ fis)] e4 r
+		r e' cis d4. cis8 h4 %70
+		cis2 d4 e gis, a~
+		a8 h cis4( h) a r r
+		R1.*10 %82
+		r1*3/4 r4 r \mvTr e'\fE^\tuttiE
+		e e e e e e
+		e e e e2 e4~ %85
+		e e4. e8 e4 d( a)
+		h2. e4( h e)
+		cis2 r4 r cis2~
+		cis4 h2 h4 a2~
+		a4 d( a) h2. %90
+		r4 e( h) cis2.
+		r4 cis2~ cis4 h2~
+		h4 a2 a4 r r
+		d( a2) a4 r r\fermata \bar "|." %94 finis
+	}
+}
+
+CredoTenoreLyrics = \lyricmode  {
+	\xE Pa -- trem o -- mni -- po --
+	ten -- tem, fa -- cto -- rem
+	coe -- li et ter --
+	rae. \x
+
+	Et in u -- num %6
+	Do -- mi -- num, Do -- mi -- num Je -- sum
+	Chri -- stum, Fi -- li -- um
+	De -- i u -- ni -- ge -- ni --
+	tum. %10
+
+	Ge -- ni -- tum non fa -- ctum, con -- %16
+	sub -- stan -- ti -- a -- lem
+	Pa -- tri, per quem
+	o -- mni -- a,
+	o -- mni -- a fa -- cta sunt. %20
+
+	\xE Et in -- car -- %25
+	na -- tus, \x
+	et in -- car -- na -- tus
+	est \xE de
+	Spi -- ri -- tu San -- cto
+	ex Ma -- ri -- a %30
+	Vir -- gi -- ne,
+	et ho -- mo
+	fa -- ctus est.
+	Cru -- ci -- fi -- xus
+	e -- ti -- am pro no -- bis sub %35
+	\x Pon -- ti -- o Pi -- la -- to,
+	pas -- _ _
+	_ sus, pas -- sus
+	et se -- pul -- tus
+	est. %40
+
+	\xE Et re -- sur -- re -- xit, %43
+	et re -- sur -- re -- xit
+	ter -- ti -- a di -- e se -- %45
+	cun -- dum \x Scri -- ptu --
+	ras.
+
+	Et in Spi -- ri -- tum %59
+	San -- ctum, Do -- mi -- num %60
+	et vi -- vi -- fi --
+	can -- tem,
+	qui ex Pa -- tre
+	Fi -- li -- o -- que pro --
+	ce -- dit. Qui cum %65
+	Pa -- tre, Pa -- tre et
+	Fi -- li -- o si -- mul
+	ad -- o -- ra -- tur et
+	con -- glo -- ri -- fi -- ca -- tur:
+	qui lo -- cu -- tus est %70
+	per Pro -- phe -- tas, per __
+	Pro -- phe -- tas.
+
+	Et %83
+	vi -- tam ven -- tu -- ri, et
+	vi -- tam ven -- tu -- ri __ %85
+	sae -- cu -- li, a --
+	men, a --
+	men, a --
+	men, a -- men, __
+	a -- men, %90
+	a -- men,
+	a -- men, __
+	a -- men,
+	a -- men. %94 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

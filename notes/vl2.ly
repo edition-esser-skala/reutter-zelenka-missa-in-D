@@ -158,3 +158,102 @@ GloriaViolinoII = {
 		d4 r8 cis d4 r\fermata \bar "|." %62 finis
 	}
 }
+
+CredoViolinoII = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \tempoCredo
+		\mvTr a'8\fE-\tutti d cis e d16( e fis8) r a,
+		cis16 a a h cis e, a cis d( e fis8) r h,
+		\slurDashed a16( h cis8 ) a16( cis d8) \slurSolid r cis h gis'
+		a4 r r2
+		R1*4 %8
+		r2 \mvTrr h,4.\mp-\vv _\tweak TextScript.X-offset #0 _\critnote ais8
+		fis' e d4 cis8 cis16 h a cis d h %10
+		cis8 d d d d cis d16 fis g e
+		fis8 d4 cis8 h h h cis16 d
+		e8 e e d cis cis cis d16 e
+		fis8 fis fis e d d d d
+		d4. d8 e16 fis e d cis8 h %15
+		\appoggiatura h cis4 r r r8 a\p
+		h4 r8 h g4 r8 g
+		cis,4 r8 cis' fis,4 r8 fis'
+		fis,4 r8 e' e, 4 r8 cis'
+		a4 r8 e a e a,4 %20
+		R1*4
+		r4 \tempoEtIncarnatus \mvTr a'-!\fE-\tutti ais-! ais-! %25
+		h-! h-! \parOn h-\parenthesize-! h-!
+		a!-! \parOff g-\parenthesize-! gis4.\trill gis8
+		ais-\tenuto cis, fis ais ais2
+		a4-! a-! a-! gis-!
+		r e! e d %30
+		gis4. gis8 ais-\tenuto fis ais cis
+		\tempoEtHomo h2.-\tenuto a4 \noBreak
+		gis4.\trill gis8 fis2\fermata \bar "||"
+		\key d \dorian \tempoCrucifixus
+			\mvTr d4.\pE-\vv-\markup \remark "con sordino" d8 d4 cis \noBreak
+		cis8 cis cis d e4 e8 e %35
+		d e16 f e8 d \tempoPilato d4( cis)\fermata
+		\tempoPassus r cis dis e8 d?
+		cis4 d2 cis8 h
+		\tempoEtSepultus ais cis h2 ais8. ais16 \noBreak
+		h2 r\fermata \bar "||" %40
+		\key d \major \time 6/4 \tempoEtResurrexit \newSpacingSection
+			\set Staff.timeSignatureFraction = 3/2
+			\override Staff.TimeSignature.style = #'single-digit
+			r4 \mvTr d16\f-\tutti-\markup \remark "senza sordino" d d d fis fis fis fis fis8 d'16 e fis8 fis fis e16 d \noBreak
+		cis d cis d cis8 d e d16 cis d4 d-! cis-!
+		d16 a' a g fis g fis e d e d cis d d, d d d d d d fis fis fis fis
+		d' a' a g fis g fis e d e d cis d cis d e fis e fis g a fis g a
+		h a g a h cis d h cis g fis e a fis a cis d a fis d d' a fis d %45
+		h' a gis fis e h cis d cis e a a, fis' a fis d cis e a cis, h d gis h,
+		a4 a16 a a a cis cis cis cis cis4 r r
+		cis cis h a8 \mvTrr gis[\mp-\vv a h cis a]
+		gis fis gis e fis gis a a, a' h a g
+		fis e fis d e fis g g, g' fis e d %50
+		e g fis e16 d cis8. cis16 h8 ais h cis d h
+		e d cis h cis a d fis16 e d8 e fis d
+		e d e cis a cis d cis d h g h
+		cis h cis cis' fis, ais h h, h' cis d h
+		e, d e d cis a d cis d fis e g %55
+		fis e fis d g e a a, a' h cis a
+		e e' cis h a cis d cis d d, fis d
+		g g, g' fis e cis d g a g a a,
+		d e fis d e fis g g, g' a g fis
+		e g16 fis e8 fis g e fis ais16 gis fis8 gis ais fis %60
+		h, h' ais gis? ais fis h ais h h, e g
+		fis e fis g fis ais, h fis' h a? gis fis
+		e fis gis e fis gis a a, a' h a g
+		fis e fis d e fis g fis e fis g e
+		a h cis a h cis d d, cis d h cis %65
+		d cis d e d cis h cis d h cis d
+		e d e fis gis e a gis16 fis gis8 e a gis
+		fis gis16 a h8 a gis e a gis fis a h h,
+		cis h a h cis d e d e fis e d
+		cis cis' ais gis ais fis h h, h' a? gis e %70
+		a gis a a, fis' d cis d e d cis a
+		fis' d e d e gis a h cis a, h cis
+		d cis d e fis d cis h cis a h cis
+		d cis d e d cis h cis d h cis d
+		e d e d cis a d cis h a g g' %75
+		fis gis? ais gis fis ais h h, h' a? gis e
+		a gis a a, cis a e' d e fis e d
+		cis h cis a h cis d cis d e fis d
+		gis e a gis a a, e' e e d cis cis'
+		fis, h cis h cis cis, fis e16 d cis8 h a cis %80
+		e e e fis gis fis e fis gis e fis gis
+		a gis16 a h8 a h e, a gis a a, e' e
+		cis a h d' h8.\trill h16 \mvTr a16\fE-\tuttiE e' e e a e e e a e e a
+		gis h gis h gis h gis h e, h' gis h cis e e e cis e e e e, d' d d
+		cis e e e cis e e e e, d' d d cis e, e e e e e e a e e e %85
+		a cis h cis e, a gis a e gis e gis a e cis h a g fis e d d' c d
+		h g' d c h c d c h a g a h a gis? fis e e' d e e, e' d e
+		cis a' e d cis d e d cis h a h cis h ais gis fis fis' e fis fis, fis' e fis
+		d h' fis e d fis cis fis h, d a d g fis e d cis d e a, cis d e g,
+		fis d fis g a g fis e d d' c? d h g' d c h c d c h a g a %90
+		h a gis fis e e' d e e, e' d e cis a' e d cis d e d cis h a h
+		cis h ais gis fis fis' e fis fis, fis' e fis d h' fis e d fis cis fis h, d a d
+		g fis e d cis d e a, cis d e g, fis d' fis g a e d g cis, fis h, e
+		a, fis' e d a d cis d e,8 cis' d,4 r r\fermata \bar "|." %94 finis
+	}
+}

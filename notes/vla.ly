@@ -139,3 +139,51 @@ GloriaViola = {
 		d16 e fis g a8 a, d4 r\fermata \bar "|." %62 finis
 	}
 }
+
+CredoViola = {
+	\relative c' {
+		\clef alto
+		\key d \major \time 4/4 \tempoCredo
+		a'8.\fE a16 a8 cis, r d fis16( g a8)
+		a e a,4 r8 fis' fis gis
+		a a, a' d, e a, e'8. e16
+		e4 r r2
+		R1*20 %24
+		r4 \tempoEtIncarnatus cis-!\fE cis-! cis-! %25
+		d-! d-! r2
+		\parOn fis4-\parenthesize-! \parOff e-\parenthesize-! h4. h8
+		ais2 r4 fis'
+		fis fis cis'8^\tenuto a^\critnote eis cis
+		cis'4 gis fis fis %30
+		d4. d8 cis-\tenuto fis ais cis
+		\tempoEtHomo r4 d,-! gis-! fis-! \noBreak
+		cis4. cis8 cis2\fermata \bar "||"
+		\key d \dorian \tempoCrucifixus
+			R1*6 \noBreak %39
+		R1\fermataMarkup \bar "||" %40
+		\key d \major \time 6/4 \tempoEtResurrexit \newSpacingSection
+			\set Staff.timeSignatureFraction = 3/2
+			\override Staff.TimeSignature.style = #'single-digit
+			fis4\fE r r a8. g16 fis8 d fis g \noBreak
+		a a, a' g16 fis e8 a a h e, a a8. a16
+		a8 fis16 g a a a a a a a a a d, d d d d d d d d d d
+		fis8 fis16 g a a a a a a a a a a a a a a a g fis d d d
+		d d d d g g g g g g g g fis d d d fis fis fis fis a a a a %45
+		e e e e h' h h h a a a a a a a a a a a a gis gis h h
+		cis4 r r a,16 a a a cis cis cis cis e e e e
+		a8 fis e4 e e r r
+		R1.*34 %82
+		r1*3/4 a,8\fE gis a h cis d
+		e dis e fis gis e a gis a a, gis' e
+		a gis a a, gis' e a gis a a, cis a %85
+		cis d e d e e, a a' fis e fis d
+		g! g, g' a g fis e fis gis e fis gis
+		a gis a h a gis fis gis ais gis ais fis
+		h h, h' a g fis e g a g a a,
+		d d' fis, e d fis g g, g' a g fis %90
+		e fis gis e fis gis a gis a h a gis
+		fis gis ais fis gis ais h h, h' a? g? fis
+		e g a g a a, d d' cis h a g
+		fis g a g a a, d4 r r\fermata \bar "|." %94 finis
+	}
+}
