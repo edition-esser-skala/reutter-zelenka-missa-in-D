@@ -136,3 +136,25 @@ CredoClarinoI = {
 		g16 f e d e8 e d16 c d e c4 r r\fermata \bar "|." %94 finis
 	}
 }
+
+SanctusClarinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoSanctus
+		e8\fE e g g \pa c d \pd d e
+		f16 e f g f8 f f4 e8 e
+		d4 r r e,
+		e8 e16 e e e e e e4 r
+		R1*2 %6
+		r2 \tempoPleni r8 d' d e16 f
+		g8 e f16 g e f e8^\critnote d r4
+		R1
+		r2 c,8. c16 c4 %10
+		r2 d'8. d16 d4
+		r2 e,8. e16 e4
+		e'8 e16 e d8 d16 d d8 d r4
+		r2 r4 r8 f
+		f8. f16 f8 e d e d16 c d e %15
+		c4 g8 g16 g e4 r\fermata \bar "|." %16 finis
+	}
+}

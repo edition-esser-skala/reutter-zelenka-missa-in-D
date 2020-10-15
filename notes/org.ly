@@ -571,6 +571,48 @@ CredoBassFigures = \figuremode {
 	q4 <6 4> <5 3> r2. %94 finis
 }
 
+SanctusOrgano = {
+	\relative c {
+		\clef bass
+		\key d \major \time 4/4 \tempoSanctus
+		r2 \mvTr e4\fE-\tuttiE a,
+		e'2 a,4 d
+		a'4. g8 fis4 h,
+		fis'2 h,4 \clef treble << { h''~ h h } \\ { r g g8 g } >>
+		\clef "treble_8" d2 %5
+		\clef bass e,4 e8 e a4 dis,
+		e2 \tempoPleni a,8 a' a g!
+		fis8. fis16 e8 d a' a, r4
+		r2 r4 r8 a'16-\solo g
+		fis8 e fis d g8.-\tutti g,16 g4 %10
+		gis'8-\solo fis gis e a8.-\tutti a,16 a4
+		ais'8-\solo gis ais fis h8.-\tutti h,16 h4
+		h'8 h16 h gis8 gis16 gis a8 a, r a'
+		fis g16 a h8 h, e g16 fis e8 e,
+		a8. a16 a8 d cis d a' a, %15
+		d4 r r2\fermata \bar "|." %16 finis
+	}
+}
+
+SanctusBassFigures = \figuremode {
+	r2 <7 _+>
+	<5 4>4 <\t _!> <7>2
+	<5 4>4 <\t 3>8 <6 3> <7 _+>2
+	<5 4>4 <\t _+>2.
+	r2 <5 4>4 <\t 3> %5
+	<7 _+>2 <5>4 <7 3>8 <6 5>
+	<4>4 <_+> r4. <[2]>8
+	<6>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff <6 4> <5 3>4.
+	r2.. <5 3>16 <\t \t>
+	<6>2 <5 3> %10
+	<6> <5 3>
+	<6> <5 _!>
+	<5>4 <6 5> \bo <[9] 4>8 \bc <[8] 3>4.
+	<5 3>4 <6 4>8 <5 _+> <5 _!>2
+	<[7] 3> <6>4 <6 4>8 <5 3> %15
+	r1 %16 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

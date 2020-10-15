@@ -257,3 +257,49 @@ CredoViolinoII = {
 		a, fis' e d a d cis d e,8 cis' d,4 r r\fermata \bar "|." %94 finis
 	}
 }
+
+SanctusViolinoII = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \tempoSanctus
+		d'2\fE h4 a
+		h8 e, e'2 d4
+		e4. g16( h,) cis8 fis, d' e16 d
+		cis4.\trill cis8 h4 h~
+		h h8-! h-! a d, fis'4 %5
+		gis4. gis8 a e \once \tieDashed a4~
+		a8 gis16 fis gis8.\trill gis16 \tempoPleni a e cis a e' cis a e
+		a a d e fis fis fis fis d8-! cis-! r cis
+		fis16 d e cis d h cis gis a cis e, d cis a e' cis
+		fis e fis g a8 fis' g16 d h a g d h g %10
+		e' fis gis a h8 gis' a16 e cis h a e cis a
+		fis' gis ais h cis8 ais' h16 fis d cis h fis d h
+		d'32 h cis d e fis gis? a h16 h, h' h, a' gis32 fis e d cis h a8 e
+		a a, r dis' e e, r g'
+		g8. g16 g8 fis e16 a fis d e8.\trill d16 %15
+		d4 r r2\fermata \bar "|." %16 finis
+	}
+}
+
+SanctusOboeII = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \tempoSanctus
+		d'2\fE h4 a
+		h8 e, e'2 d4
+		e4. g16( h,) cis8 fis, d' e16 d
+		cis4.\trill cis8 h4 h~
+		h h8-! h-! a d, fis'4 %5
+		gis4. gis8 a e \once \tieDashed a4~
+		a8 gis16 fis gis8.\trill gis16 \tempoPleni a e cis a e' cis a e
+		a a d e fis fis fis fis d8-! cis-! r4
+		R1
+		a16 g a h a h g a h8. h16 h4 %10
+		h16 a h cis h cis a h cis8. cis16 cis4
+		cis16 h cis d cis d h cis d8. d16 d4
+		d8 d16 d d8 d16 d d8 cis r4
+		r2 r4 r8 h
+		cis8. cis16 cis8 d e d4 cis8 %15
+		d4 r r2\fermata \bar "|." %16 finis
+	}
+}

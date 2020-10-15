@@ -251,6 +251,52 @@ CredoViolinoI = {
 	}
 }
 
+SanctusViolinoI = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \tempoSanctus
+		d'2.\fE cis4
+		h2 cis4 d~
+		d cis8 h ais4 h~
+		h ais8.\trill ais16 h4 r
+		r2 d4 d8-! d-! %5
+		d4.\trill cis16 h cis4. d16 cis
+		h4. h8 \tempoPleni a16 e' cis a e' cis a e
+		a d fis g a a a a fis8-! e-! r e
+		a16 h g a fis d e h cis e cis h a e cis a
+		a' g a h a8 fis' g16 d h a g d h g %10
+		h' a h cis h8 gis' a16 e cis h a e cis a
+		cis' h cis d cis8 ais' h16 fis d cis h fis d h
+		d'32 h cis d e fis gis? a h16 h, h' h, a' gis32 fis e d cis h a16 e cis a
+		r8 a'' fis fis, r h h' h,
+		cis8. cis16 cis8 d e d4 cis8 %15
+		d4 r r2\fermata \bar "|." %16 finis
+	}
+}
+
+SanctusOboeI = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \tempoSanctus
+		d'2.\fE cis4
+		h2 cis4 d~
+		d cis8 h ais4 h~
+		h ais8.\trill ais16 h4 r
+		r2 d4 d8-! d-! %5
+		d4.\trill cis16 h cis4. d16 cis
+		h4. h8 \tempoPleni a16 e' cis a e' cis a e
+		a d fis g a a a a fis8-! e-! r4
+		R1
+		a,16 g a h a h g a h8. h16 h4 %10
+		h16 a h cis h cis a h cis8. cis16 cis4
+		cis16 h cis d cis d h cis d8. d16 d4
+		d8 d16 d d8 d16 d d8 cis r4
+		r2 r4 r8 h
+		cis8. cis16 cis8 d e d4 cis8 %15
+		d4 r r2\fermata \bar "|." %16 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

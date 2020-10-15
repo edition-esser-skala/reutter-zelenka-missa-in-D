@@ -33,20 +33,20 @@
        (stretchability . 0))
 
 	top-system-spacing =
-    #'((basic-distance . 12)
-       (minimum-distance . 12)
+    #'((basic-distance . 20)
+       (minimum-distance . 20)
        (padding . -100)
        (stretchability . 0))
 
 	top-markup-spacing =
-    #'((basic-distance . 2)
-       (minimum-distance . 2)
+    #'((basic-distance . 5)
+       (minimum-distance . 5)
        (padding . -100)
        (stretchability . 0))
 
 	markup-system-spacing =
-    #'((basic-distance . 10)
-       (minimum-distance . 10)
+    #'((basic-distance . 15)
+       (minimum-distance . 15)
        (padding . -100)
        (stretchability . 0))
 
@@ -671,6 +671,8 @@ tempoCredo = \tempoMarkup "Allegro"
 	tempoPassus = \tempoMarkup "Andante"
 	tempoEtSepultus = \tempoMarkup "Adagio"
 	tempoEtResurrexit = \tempoMarkup "Allegro"
+tempoSanctus = \tempoMarkup "Adagio"
+	tempoPleni = \tempoMarkup "Allegro"
 
 vv =  \markup \remark  "Vv."
 vvE = \markup \remarkE "Vv."
