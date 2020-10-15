@@ -7,7 +7,6 @@
 \include "../definitions.ly"
 
 \paper {
-	% #(set-paper-size "a4" 'landscape)
 	indent = 1\cm
 	% #(define (page-post-process layout pages) (ly:create-toc-file layout pages))
 }
@@ -24,21 +23,34 @@
 	% 	\tocSection "1" "Kyrie"
 	% 	\score {
 	% 		<<
-	% 			\new StaffGroup \with { \smallGroupDistance } <<
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff <<
+	% 					\set GrandStaff.instrumentName = \markup \center-column { "Oboe" "ad libitum" }
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "I"
+	% 						\KyrieOboeI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "II"
+	% 						\KyrieOboeII
+	% 					}
+	% 				>>
+	% 			>>
+	% 			\new StaffGroup <<
 	% 				\new Staff <<
 	% 					\set Staff.instrumentName = \markup \center-column { "Clarino I, II" "in D" }
 	% 					% \transpose c d
 	% 					\partcombine \KyrieClarinoI \KyrieClarinoII
 	% 				>>
 	% 			>>
-	% 			\new Staff \with { \smallStaffDistance } {
+	% 			\new Staff {
 	% 				\set Staff.instrumentName = \markup \center-column { "Timpani" "in D–A" }
 	% 				% \transpose c d
 	% 				\KyrieTimpani
 	% 			}
 	% 			\new StaffGroup <<
 	% 				\new GrandStaff \with { \smallGroupDistance } <<
-	% 					\set GrandStaff.instrumentName = \markup \center-column { "Violino" "(Oboe ad lib.)" }
+	% 					\set GrandStaff.instrumentName = "Violino"
 	% 					\new Staff {
 	% 						\set Staff.instrumentName = "I"
 	% 						\KyrieViolinoI
@@ -105,21 +117,34 @@
 	% 	\tocSection "2" "Gloria"
 	% 	\score {
 	% 		<<
-	% 			\new StaffGroup \with { \smallGroupDistance } <<
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff <<
+	% 					\set GrandStaff.instrumentName = "ob"
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "1"
+	% 						\GloriaOboeI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "2"
+	% 						\GloriaOboeII
+	% 					}
+	% 				>>
+	% 			>>
+	% 			\new StaffGroup <<
 	% 				\new Staff <<
 	% 					\set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
 	% 					% \transpose c d
 	% 					\partcombine \GloriaClarinoI \GloriaClarinoII
 	% 				>>
 	% 			>>
-	% 			\new Staff \with { \smallStaffDistance } {
+	% 			\new Staff {
 	% 				\set Staff.instrumentName = "timp"
 	% 				% \transpose c d
 	% 				\GloriaTimpani
 	% 			}
 	% 			\new StaffGroup <<
 	% 				\new GrandStaff \with { \smallGroupDistance } <<
-	% 					\set GrandStaff.instrumentName = \markup \center-column { "vl" "(ob)" }
+	% 					\set GrandStaff.instrumentName = "vl"
 	% 					\new Staff {
 	% 						\set Staff.instrumentName = "1"
 	% 						\GloriaViolinoI
@@ -180,21 +205,34 @@
 	% 	\tocSection "3" "Credo"
 	% 	\score {
 	% 		<<
-	% 			\new StaffGroup \with { \smallGroupDistance } <<
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff <<
+	% 					\set GrandStaff.instrumentName = "ob"
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "1"
+	% 						\CredoOboeI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "2"
+	% 						\CredoOboeII
+	% 					}
+	% 				>>
+	% 			>>
+	% 			\new StaffGroup <<
 	% 				\new Staff <<
 	% 					\set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
 	% 					% \transpose c d
 	% 					\partcombine \CredoClarinoI \CredoClarinoII
 	% 				>>
 	% 			>>
-	% 			\new Staff \with { \smallStaffDistance } {
+	% 			\new Staff {
 	% 				\set Staff.instrumentName = "timp"
 	% 				% \transpose c d
 	% 				\CredoTimpani
 	% 			}
 	% 			\new StaffGroup <<
 	% 				\new GrandStaff \with { \smallGroupDistance } <<
-	% 					\set GrandStaff.instrumentName = \markup \center-column { "vl" "(ob)" }
+	% 					\set GrandStaff.instrumentName = "vl"
 	% 					\new Staff {
 	% 						\set Staff.instrumentName = "1"
 	% 						\CredoViolinoI
@@ -247,92 +285,92 @@
 	% 		\midi { \tempo 4 = 80 }
 	% 	}
 	% }
-	\bookpart {
-		\header {
-			number = "4"
-			title = "S A N C T U S"
-		}
-		\tocSection "4" "Sanctus"
-		\score {
-			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\set GrandStaff.instrumentName = "ob"
-						\new Staff {
-							\set Staff.instrumentName = "1"
-							\SanctusOboeI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "2"
-							\SanctusOboeII
-						}
-					>>
-				>>
-				\new StaffGroup <<
-					\new Staff <<
-						\set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
-						% \transpose c d
-						\partcombine \SanctusClarinoI \SanctusClarinoII
-					>>
-				>>
-				\new Staff {
-					\set Staff.instrumentName = "timp"
-					% \transpose c d
-					\SanctusTimpani
-				}
-				\new StaffGroup <<
-					\new GrandStaff \with { \smallGroupDistance } <<
-						\set GrandStaff.instrumentName = "vl"
-						\new Staff {
-							\set Staff.instrumentName = "1"
-							\SanctusViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "2"
-							\SanctusViolinoII
-						}
-					>>
-					\new Staff {
-						\set Staff.instrumentName = "vla"
-						\SanctusViola
-					}
-				>>
-				\new ChoirStaff <<
-					\new Staff {
-						\set Staff.instrumentName = "S"
-						\new Voice = "Soprano" { \dynamicUp \SanctusSopranoNotes }
-					}
-					\new Lyrics \lyricsto Soprano \SanctusSopranoLyrics
-
-					\new Staff {
-						\set Staff.instrumentName = "A"
-						\new Voice = "Alto" { \dynamicUp \SanctusAltoNotes }
-					}
-					\new Lyrics \lyricsto Alto \SanctusAltoLyrics
-
-					\new Staff {
-						\set Staff.instrumentName = "T"
-						\new Voice = "Tenore" { \dynamicUp \SanctusTenoreNotes }
-					}
-					\new Lyrics \lyricsto Tenore \SanctusTenoreLyrics
-
-					\new Staff {
-						\set Staff.instrumentName = "B"
-						\new Voice = "Basso" { \dynamicUp \SanctusBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \SanctusBassoLyrics
-				>>
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
-						% \transpose c c,
-						\SanctusOrgano
-					}
-				>>
-				\new FiguredBass { \SanctusBassFigures }
-			>>
-			\layout { }
-			% \midi { \tempo 4 = 60 }
-		}
-	}
+	% \bookpart {
+	% 	\header {
+	% 		number = "4"
+	% 		title = "S A N C T U S"
+	% 	}
+	% 	\tocSection "4" "Sanctus"
+	% 	\score {
+	% 		<<
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff <<
+	% 					\set GrandStaff.instrumentName = "ob"
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "1"
+	% 						\SanctusOboeI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "2"
+	% 						\SanctusOboeII
+	% 					}
+	% 				>>
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff <<
+	% 					\set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
+	% 					% \transpose c d
+	% 					\partcombine \SanctusClarinoI \SanctusClarinoII
+	% 				>>
+	% 			>>
+	% 			\new Staff {
+	% 				\set Staff.instrumentName = "timp"
+	% 				% \transpose c d
+	% 				\SanctusTimpani
+	% 			}
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff \with { \smallGroupDistance } <<
+	% 					\set GrandStaff.instrumentName = "vl"
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "1"
+	% 						\SanctusViolinoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "2"
+	% 						\SanctusViolinoII
+	% 					}
+	% 				>>
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "vla"
+	% 					\SanctusViola
+	% 				}
+	% 			>>
+	% 			\new ChoirStaff <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "S"
+	% 					\new Voice = "Soprano" { \dynamicUp \SanctusSopranoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Soprano \SanctusSopranoLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "A"
+	% 					\new Voice = "Alto" { \dynamicUp \SanctusAltoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Alto \SanctusAltoLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "T"
+	% 					\new Voice = "Tenore" { \dynamicUp \SanctusTenoreNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Tenore \SanctusTenoreLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "B"
+	% 					\new Voice = "Basso" { \dynamicUp \SanctusBassoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Basso \SanctusBassoLyrics
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
+	% 					% \transpose c c,
+	% 					\SanctusOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass { \SanctusBassFigures }
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 4 = 60 }
+	% 	}
+	% }
 }

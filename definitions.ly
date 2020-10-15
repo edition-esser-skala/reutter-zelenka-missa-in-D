@@ -677,6 +677,8 @@ tempoSanctus = \tempoMarkup "Adagio"
 vv =  \markup \remark  "Vv."
 vvE = \markup \remarkE "Vv."
 
+\include "notes/ob1.ly"
+\include "notes/ob2.ly"
 \include "notes/clno1.ly"
 \include "notes/clno2.ly"
 \include "notes/timp.ly"
