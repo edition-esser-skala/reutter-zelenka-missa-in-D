@@ -394,6 +394,43 @@ SanctusTenoreLyrics = \lyricmode {
 }
 
 
+BenedictusTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key h \minor \time 4/4 \autoBeamOff \tempoBenedictus
+		R1*28 \noBreak %28
+		R1\fermataMarkup \bar "||"
+		\key d \major \time 4/4 \tempoOsanna R1 \noBreak %30
+		r2 r4 \mvTr a\fE^\tuttiE
+		e'8 e e d cis e a, cis
+		a4 h2 ais4
+		h d e2
+		a,4 r r d %35
+		d d r e
+		e e r ais,
+		d2. g,4
+		a^\critnote a a2
+		a4 r r2 %40
+		r4 \tempoOsannaFinis d2 d4
+		d2 d\fermata \bar "|." %42 finis
+	}
+}
+
+BenedictusTenoreLyrics = \lyricmode {
+	O -- %31
+	san -- na in ex -- cel -- sis, in ex --
+	cel -- _ _
+	sis, o -- san --
+	na, o -- %35
+	san -- na, o --
+	san -- na, o --
+	san -- na
+	in ex -- cel --
+	sis, %40
+	in ex --
+	cel -- sis. %42 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

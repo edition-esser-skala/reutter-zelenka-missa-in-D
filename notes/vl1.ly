@@ -274,6 +274,55 @@ SanctusViolinoI = {
 	}
 }
 
+BenedictusViolinoI = {
+	\relative c' {
+		\clef treble
+		\key h \minor \time 4/4 \tempoBenedictus
+		\mvTr h'8\fE-\markup \remark "con sordino" h, r fis''16 e d( cis) h8 r16 fis'\p fis e
+		d( cis) h8 r ais'\f h a16 g fis e d cis
+		d( cis) h8 r fis' g16 fis \appoggiatura fis g8 r16 e a g
+		fis e fis g a8.( h16) \appoggiatura d,16 cis8 d16 e <d fis>8-! <cis e>-!
+		<fis, a d>4-! r16 fis'16 g fis e dis \appoggiatura dis e8 r16 e fis e %5
+		d(\trill cis) h8 r cis \tuplet 3/2 8 { d16 cis h e[ d cis] fis e d gis[ fis e] }
+		ais16.( e32) h'16.( cis,32) <h d>8-! <ais cis>-! <d, fis h>4 r
+		h'8.(\p cis16) cis8.(\trill h32 cis) d8 fis16( e) d8( cis)
+		d fis16 e d( e) fis8 e16( fis) e( fis) g( a) g( a)
+		fis( g) fis( g) a8 g16( fis) e a fis e32 d cis8.\trill d16 %10
+		d8\fE d, r16 a'' a g fis e d8 r16 a'\p a g
+		fis\trill e d8 r16 a' g a \tuplet 3/2 8 { h[ a g] g a h } e, g fis g
+		\tuplet 3/2 8 { a[ g fis] fis g a } d, fis e fis \tuplet 3/2 8 { g[ fis e] e fis g } cis, e d e
+		\tuplet 3/2 8 { fis e d g[ fis e] a[ g fis] } h d, cis8 d16 e \parOn <d fis>8-\parenthesize-! \parOff <cis e>-\parenthesize-!
+		<d a fis>4 r d8.\f e16 e8.(\trill d32 e) %15
+		fis16( e d8) r a\mp e'2~
+		e8 d16 cis d8 e16 fis g4. a16 g
+		fis4. g16 fis e( d) e( fis) e( fis) e( fis)
+		d( cis) d( e) d8 e16 d \appoggiatura d8 cis4 r
+		r fis, d'4. e16 d %20
+		cis d cis d e d e cis fis4. e16 d
+		cis4.\trill\fermata h8 h\f <fis h,> r fis'16 e
+		d cis h8 r16 fis'\p fis e d cis h8 r ais'\f
+		h a16 g fis( e) d( cis) d\trill cis h8 r fis'
+		g16 fis \appoggiatura fis g8 r16 e a g fis e fis g a8.( h16) %25
+		cis,8 d16 e <d fis>8-! <cis e>-! <d a fis>4 r16 fis g fis
+		e dis? \appoggiatura dis e8 r16 e fis e d\trill cis h8 r cis
+		\tuplet 3/2 8 { d16[ cis h] e d cis fis[ e d] gis fis e } ais e h' cis, \parOn <h d>8-\parenthesize-! \parOff <ais cis>-\parenthesize-! \noBreak
+		<h fis d>4 r r2\fermata \bar "||"
+		\key d \major \time 4/4 \tempoOsanna \mvTr d2\fE-\markup \remarkE "senza sordino" cis4 e \noBreak %30
+		a, d4. cis16 h cis8 a
+		h4.\trill h8 a4 cis8 a
+		d16( cis d) e-! d( cis d) e-! cis d h cis ais fis fis' e
+		d h fis d h d' cis d h e d e cis a'! g a
+		fis d a fis d8 a' d16( cis d) e-! d-! e-! c d %35
+		h-! g-! d h g8 h' e16( dis e) fis-! e-! fis-! d e
+		cis-! a-! e cis a8 cis' fis16( eis fis) g!-! fis-! g-! e fis
+		d-! h-! fis d h8 h'16 cis d cis d e cis8 d
+		e16 a, a a fis' a, a a d a a a g' a, cis e
+		fis8 d,16 e fis8 e d c h a %40
+		g4 \tempoOsannaFinis h'2 a4
+		h2 a\fermata \bar "|." %42 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

@@ -673,9 +673,9 @@ tempoCredo = \tempoMarkup "Allegro"
 	tempoEtResurrexit = \tempoMarkup "Allegro"
 tempoSanctus = \tempoMarkup "Adagio"
 	tempoPleni = \tempoMarkup "Allegro"
-
-vv =  \markup \remark  "Vv."
-vvE = \markup \remarkE "Vv."
+tempoBenedictus = \tempoMarkup "Andante"
+	tempoOsanna = \tempoMarkup "Presto"
+	tempoOsannaFinis = \tempoMarkup "Adagio"
 
 \include "notes/ob1.ly"
 \include "notes/ob2.ly"

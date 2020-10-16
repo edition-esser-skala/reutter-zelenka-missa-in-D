@@ -129,3 +129,24 @@ SanctusTimpani = {
 		c4 c8 c16 c c4 r\fermata \bar "|." %16 finis
 	}
 }
+
+BenedictusTimpani = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoBenedictus
+		R1*28 \noBreak %28
+		R1\fermataMarkup \bar "||"
+		\time 4/4 \tempoOsanna R1*2 %31
+		r2 r4 g\fE
+		c c r2
+		r2 r4 g8. g16
+		c4 r r c %35
+		c c r2
+		g4 g r2
+		r c8 c g c
+		g4 c g g8 g16 g
+		c4 c8 c c16 c c c c c c c %40
+		c4 \tempoOsannaFinis c2 c4
+		c2\startTrillSpan c\stopTrillSpan\fermata \bar "|." %42 finis
+	}
+}

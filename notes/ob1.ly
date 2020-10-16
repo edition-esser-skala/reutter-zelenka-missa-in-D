@@ -188,3 +188,25 @@ SanctusOboeI = {
 		d4 r r2\fermata \bar "|." %16 finis
 	}
 }
+
+BenedictusOboeI = {
+	\relative c' {
+		\clef treble
+		\key h \minor \time 4/4 \tempoBenedictus
+		R1*28 \noBreak %28
+		R1\fermataMarkup \bar "||"
+		\key d \major \time 4/4 \tempoOsanna d'2\fE cis4 e \noBreak %30
+		a, d4. cis16 h cis8 a
+		h4.\trill h8 a4 cis8 a
+		d2 cis
+		h4 d d cis
+		d a d2 %35
+		h4 h e2
+		cis4 cis fis2~
+		fis8 e d2 cis8 d
+		e4 d d cis
+		d r r2 %40
+		r4 \tempoOsannaFinis h2 a4
+		h2 a\fermata \bar "|." %42 finis
+	}
+}

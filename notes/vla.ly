@@ -210,3 +210,52 @@ SanctusViola = {
 		a4 r r2\fermata \bar "|." %16 finis
 	}
 }
+
+BenedictusViola = {
+	\relative c' {
+		\clef alto
+		\key h \minor \time 4/4 \tempoBenedictus
+		d8\fE d16 e fis8 cis fis16 e d e fis8\p cis
+		fis16 e d e fis8 e fis4\f r8 ais
+		h d16 cis h8 h h4 r8 cis
+		d d, r e e fis r e
+		fis fis16 g a8 a ais4 r8 cis %5
+		fis,4 r8 fis fis ais h cis,
+		cis d16 e fis8 fis h,\pE h' ais fis
+		h, h' ais fis h h, h' ais
+		h h, h' fis16 g a8 g16 fis e4
+		h'8 a16 g fis8 g a d, a' a, %10
+		d\fE fis16 g a8 e a fis16 g a8\p e
+		r fis16\f g a8 fis d4 r8 d
+		d4 r8 a' h4 r8 a
+		a g fis e e fis16 g a8 a,
+		fis'4 r fis8\f fis16 g a8 cis, %15
+		d4 r r8 a'\p a,4
+		r8 a' d,4 r8 h' a4
+		r8 d, a'4 r8 a fis4
+		r8 fis h4 r8 fis16\f gis ais8 h
+		fis\p gis ais fis r fis fis4 %20
+		fis r8 ais h cis, d e
+		fis4\fermata r d8\f d16 e fis8 cis
+		fis16 e d e fis8\p cis fis16 e d e fis8\f e
+		d4 cis8 ais' h d,16 e fis8 d
+		h4 r8 cis d4 r8 e %25
+		e4 r8 a a fis16 g a8 a,
+		ais'?4 r8 cis fis, d16 e fis8 e
+		d cis h e16 d cis8 d16 e fis8 fis \noBreak
+		fis4 r r2\fermata \bar "||"
+		\key d \major \time 4/4 \tempoOsanna R1 \noBreak %30
+		r2 r4 a,\fE
+		e'8 e e d cis e a, cis
+		a4 h e fis
+		h, r g' e
+		d16 d' a fis d4 fis16 e fis g fis g e fis %35
+		d g d h g4 gis'?16 fis gis a gis a fis gis
+		e a e cis a4 ais'?16 gis ais h ais h gis ais
+		fis h fis d h8 a! g fis e' d
+		cis4 d a' a,
+		d,8 d'16 e fis8 e d c h a %40
+		g4 \tempoOsannaFinis d'2 d4
+		d2 d\fermata \bar "|." %42 finis
+	}
+}

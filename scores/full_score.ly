@@ -373,4 +373,92 @@
 	% 		\midi { \tempo 4 = 60 }
 	% 	}
 	% }
+	\bookpart {
+		\header {
+			number = "5"
+			title = "B E N E D I C T U S"
+		}
+		\tocSection "5" "Benedictus"
+		\score {
+			<<
+				\new StaffGroup <<
+					\new GrandStaff <<
+						\set GrandStaff.instrumentName = "ob"
+						\new Staff {
+							\set Staff.instrumentName = "1"
+							\BenedictusOboeI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "2"
+							\BenedictusOboeII
+						}
+					>>
+				>>
+				\new StaffGroup <<
+					\new Staff <<
+						\set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
+						% \transpose c d
+						\partcombine \BenedictusClarinoI \BenedictusClarinoII
+					>>
+				>>
+				\new Staff {
+					\set Staff.instrumentName = "timp"
+					% \transpose c d
+					\BenedictusTimpani
+				}
+				\new StaffGroup <<
+					\new GrandStaff \with { \smallGroupDistance } <<
+						\set GrandStaff.instrumentName = "vl"
+						\new Staff {
+							\set Staff.instrumentName = "1"
+							\BenedictusViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "2"
+							\BenedictusViolinoII
+						}
+					>>
+					\new Staff {
+						\set Staff.instrumentName = "vla"
+						\BenedictusViola
+					}
+				>>
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = "S"
+						\new Voice = "Soprano" { \dynamicUp \BenedictusSopranoNotes }
+					}
+					\new Lyrics \lyricsto Soprano \BenedictusSopranoLyrics
+
+					\new Staff {
+						\set Staff.instrumentName = "A"
+						\new Voice = "Alto" { \dynamicUp \BenedictusAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \BenedictusAltoLyrics
+
+					\new Staff {
+						\set Staff.instrumentName = "T"
+						\new Voice = "Tenore" { \dynamicUp \BenedictusTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \BenedictusTenoreLyrics
+
+					\new Staff {
+						\set Staff.instrumentName = "B"
+						\new Voice = "Basso" { \dynamicUp \BenedictusBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \BenedictusBassoLyrics
+				>>
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
+						% \transpose c c,
+						\BenedictusOrgano
+					}
+				>>
+				\new FiguredBass { \BenedictusBassFigures }
+			>>
+			\layout { }
+			\midi { \tempo 4 = 70 }
+		}
+	}
 }
