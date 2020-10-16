@@ -407,13 +407,67 @@ BenedictusBassoLyrics = \lyricmode {
 	cel -- sis. %42 finis
 }
 
-% BassoNotes = {
-% 	\relative c {
-% 		\clef bass
-%
-% 	}
-% }
-%
-% BassoLyrics = \lyricmode {
-%
-% }
+AgnusDeiBassoNotes = {
+	\relative c {
+		\clef bass
+		\key d \major \time 4/4 \autoBeamOff \tempoAgnusDei
+		R1*3
+		r2 \mvTr fis4.\pE^\soloE gis8
+		a4. gis8 a2 %5
+		d,4 r r2
+		R1*4 %10
+		r2 r4 \mvTr d8\fE^\tuttiE d
+		d4 d r d
+		a a r a'
+		fis eis fis fis
+		r fis h, e %15
+		r e a, d \noBreak
+		\tempoAgnusDeiFinis a'2 a,\fermata \bar "||"
+		\time 4/4 \tempoDona R1*3 %20
+		r2 a'4 a
+		fis8 d r a'( fis) d r e
+		fis[ d16 e] fis[ g a8]~ a4 gis
+		a8 a([ gis)] e r a([ gis)] e
+		r a4 g8 fis h, h([ ais)] %25
+		h h'([ ais)] fis r h([ ais)] fis
+		r h4 a8 gis e16([ fis)] gis8 e
+		r a([ gis)] e r a([ gis)] e
+		r a([ ais fis)] h h([ ais)] fis
+		r h([ ais)] fis r h[( e, a] %30
+		d,[ g cis, d)] a a'4 a8
+		fis d r a'( fis) d r a'~
+		a g4 fis8 e d a4
+		d a d a
+		d a' d, r\fermata \bar "|." %35 FINIS
+	}
+}
+
+AgnusDeiBassoLyrics = \lyricmode {
+	Mi -- se -- %4
+	re -- re no -- %5
+	bis.
+
+	A -- gnus %11
+	De -- i, qui
+	tol -- lis pec --
+	ca -- ta mun -- di,
+	pec -- ca -- ta, %15
+	pec -- ca -- ta
+	mun -- di:
+
+	Do -- na %21
+	no -- bis pa -- cem, pa --
+	_ _ _
+	cem, pa -- cem, pa -- cem,
+	do -- na no -- bis, do -- %25
+	na pa -- cem, pa -- cem,
+	pa -- cem, pa -- cem, pa -- cem,
+	pa -- cem, pa -- cem,
+	pa -- cem, pa -- cem,
+	pa -- cem, pa -- %30
+	cem, do -- na
+	no -- bis pa -- cem, pa --
+	_ _ _ cem, pa --
+	cem, pa -- cem, pa --
+	cem, pa -- cem. %35 FINIS
+}

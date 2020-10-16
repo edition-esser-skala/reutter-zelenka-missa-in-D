@@ -220,3 +220,36 @@ BenedictusOboeII = {
 		h2 a\fermata \bar "|." %42 finis
 	}
 }
+
+AgnusDeiOboeII = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \tempoAgnusDei
+		R1*10 %10
+		r2 r4 fis'8\f fis
+		d d d d d d d d
+		cis cis cis cis cis cis cis cis
+		cis cis gis gis h-\critnote ais ais ais
+		a a a a a a h h %15
+		g g g g g g a a \noBreak
+		fis fis e d e2\fermata \bar "||"
+		\time 4/4 \tempoDona a4-! a-! fis8 d r a' \noBreak
+		fis d r e fis d16 e fis8 g
+		a a gis e r a gis e %20
+		a4. g8 fis4 e
+		d8 fis e e r fis e g
+		a fis16 g a8 a d cis16 d h4
+		e,8 e4 gis8 r e4 gis8
+		r cis4 h8 ais h4 cis8 %25
+		h d cis fis r d cis fis
+		r d4 cis8 h e4 e8
+		cis a r e' cis a r h
+		cis fis~ fis16 e d cis d8 h cis fis
+		r h, cis fis r fis g e %30
+		fis d-! e-! a, r e' cis a
+		r fis' e cis r fis e cis
+		d h cis a r fis' e cis
+		d16 fis fis fis e, e' e e d fis fis fis e, e' e e
+		d8 fis cis e fis4  r\fermata \bar "|." %35 FINIS
+	}
+}

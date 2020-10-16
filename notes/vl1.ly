@@ -323,9 +323,43 @@ BenedictusViolinoI = {
 	}
 }
 
-% ViolinoI = {
-% 	\relative c' {
-% 		\clef treble
-%
-% 	}
-% }
+AgnusDeiViolinoI = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \tempoAgnusDei
+		d'2\p^\tenuto e
+		d4 fis8 e d2
+		e~ e
+		R1*2 %5
+		fis,8\mp fis fis fis e e e e
+		e e e e e e e d
+		fis fis fis fis fis fis fis fis
+		fis fis fis fis eis eis eis cis
+		cis cis cis cis fis fis eis eis %10
+		fis fis fis fis a\f a a' a
+		h h h h h h h h
+		a a a a a a a a
+		e e d cis^\critnote fis fis fis fis
+		fis fis fis fis dis dis e e %15
+		e e e e cis cis d d \noBreak
+		\tempoAgnusDeiFinis d d cis h cis2\fermata \bar "||"
+		\time 4/4 \tempoDona R1 \noBreak
+		r2 d4-! d-!
+		cis8 a r e' cis a r h %20
+		cis a16 h cis d e4 d cis8
+		d d cis a r d cis \once \tieDashed e~
+		e d4 cis8 h2\trill
+		a8 a h e r a, h e
+		r2 r8 fis4 fis8 %25
+		d h r fis' d h r cis
+		d h16 cis d e fis8 h, gis'16 a h8 gis
+		r e gis h r e, gis h
+		r a fis ais h4 r8 fis
+		d h r fis' d h cis4~ %30
+		cis8 h e d cis a16 h cis d e8
+		d8 d' cis a r d, cis a
+		h e a, d cis d e16 a a a
+		fis a a a cis, g' g g fis a a a cis, g' g g
+		fis8-! d'-! e,-! cis'-! d4 r\fermata \bar "|." %35 FINIS
+	}
+}

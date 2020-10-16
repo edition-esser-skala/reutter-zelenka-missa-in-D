@@ -483,13 +483,73 @@ BenedictusAltoLyrics = \lyricmode {
 	cel -- sis. %42 finis
 }
 
-% AltoNotes = {
-% 	\relative c' {
-% 		\clef treble
-%
-% 	}
-% }
-%
-% AltoLyrics = \lyricmode {
-%
-% }
+AgnusDeiAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \autoBeamOff \tempoAgnusDei
+		R1*2
+		r2 \mvTr e4.\pE^\solo fis8
+		g4 g fis4. fis8
+		e4 fis fis( e8.[\trill d16)] %5
+		d4 r r2
+		R1*4 %10
+		r2 r4 \mvTr fis8\fE^\tuttiE fis
+		e4 e r e
+		e e r a
+		ais h8([ gis)] fis4 fis
+		r fis fis e %15
+		r e e d \noBreak
+		\tempoAgnusDeiFinis d( cis8[ h)] cis2\fermata \bar "||"
+		\time 4/4 \tempoDona a'4 a fis8 d r a'( \noBreak
+		fis) d r e( fis[ d16 e] fis8[ g])
+		a a([ gis)] e r a([ gis)] e %20
+		a4. g8 fis4 e
+		d8 fis([ e)] cis r fis[ e g]
+		a[ fis16 g] a8[ a,] d[ cis16 d] h4
+		e8 e4 gis8 r e4 gis8
+		r2 r8 fis4 fis8 %25
+		d h r fis'( d) h r cis(
+		d[ h16 cis] d[ e fis8]) h, gis'16([ a] h8) gis
+		r e([ gis)] h r e,([ gis)] h
+		r a( fis4) fis8 fis4 ais8
+		r fis4 ais8 r fis( g4 %30
+		fis e8[^\critnote fis)] e e16([ d] cis[ h a8)]
+		d fis([ e)] cis r fis([ e)] cis
+		d([ e cis d] g) fis e([ a)]
+		fis4 e fis e
+		d cis d r\fermata \bar "|." %35 FINIS
+	}
+}
+
+AgnusDeiAltoLyrics = \lyricmode {
+	Mi -- se -- %3
+	re -- re, mi -- se --
+	re -- re no -- %5
+	bis.
+
+	A -- gnus %11
+	De -- i, qui
+	tol -- lis pec --
+	ca -- ta mun -- di,
+	pec -- ca -- ta, %15
+	pec -- ca -- ta
+	mun -- di:
+	Do -- na no -- bis pa --
+	cem, pa --
+	cem, pa -- cem, pa -- cem, %20
+	pa -- _ _ _
+	cem, pa -- cem, pa --
+	_ _ _ _
+	cem, pa -- cem, pa -- cem,
+	do -- na %25
+	no -- bis pa -- cem, pa --
+	cem, pa -- cem,
+	pa -- cem, pa -- cem,
+	pa -- cem, pa -- cem,
+	pa -- cem, pa -- %30
+	cem, pa --
+	cem, pa -- cem, pa -- cem,
+	pa -- cem, pa --
+	cem, pa -- cem, pa --
+	cem, pa -- cem. %35 FINIS
+}

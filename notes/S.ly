@@ -495,13 +495,81 @@ BenedictusSopranoLyrics = \lyricmode {
 	cel -- sis. %42 finis
 }
 
-% SopranoNotes = {
-% 	\relative c' {
-% 		\clef treble
-%
-% 	}
-% }
-%
-% SopranoLyrics = \lyricmode {
-%
-% }
+AgnusDeiSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \autoBeamOff \tempoAgnusDei
+		\mvTr a'4.\pE^\soloE d8 g,8.([ fis16)] g8 a
+		fis8.([ e16)] d8 a' d([ cis)] d4
+		r8 h16([ cis)] d8 cis16([ h)] cis8.([ h16)] a4
+		R1*2
+		d4. fis8 gis,4 gis8 fis16([ gis)] %5
+		a4 a8 a ais4. h8
+		\appoggiatura d cis4 cis r8 e d cis
+		\appoggiatura e d4 d cis4. eis,8
+		fis4. gis8
+		a4( gis8.[\trill fis16)] %10
+		fis4 \mvTr a8\f^\tutti a d2
+		h2 r4 h
+		cis cis8 d e2~
+		e4 d8([ cis)] h8([ ais)] ais fis16([ g!)]
+		a2. g!8 e16([ fis)] %15
+		g2. fis4 \noBreak
+		\tempoAgnusDeiFinis fis4( e8[ d)] e2\fermata \bar "||"
+		\time 4/4 \tempoDona R1 \noBreak
+		r2 d'4 d
+		cis8 a r e'( cis) a r h %20
+		cis[ a16 h] cis[ d] e4 d cis8
+		d d([ cis)] a r d[ cis \once \tieDashed e]~
+		e d4 cis8 h2\trill
+		a8 a([ h)] e r a,([ h)] e
+		r cis4 h8 ais( h4 cis8) %25
+		h d([ cis)] fis r d([ cis)] fis
+		r d4( cis8) h e4 e8
+		cis a r e'( cis) a r h
+		cis[ fis]~ fis16[ e d cis] d8 h r fis'(
+		d) h r fis'( d) h cis4~ %30
+		cis8[ h e d] cis a16([ h] cis[ d e8)]
+		d8 d([ cis)] a r d([ cis)] a
+		h([ e a, d] cis) d d([ cis)]
+		d4 cis d cis
+		d e fis r\fermata \bar "|." %35 FINIS
+	}
+}
+
+AgnusDeiSopranoLyrics = \lyricmode {
+	A -- gnus De -- i, qui
+	tol -- lis, qui tol -- lis
+	pec -- ca -- ta mun -- di:
+
+	A -- gnus De -- i, qui %6
+	tol -- lis pec -- ca -- ta
+	mun -- di, pec -- ca -- ta
+	mun -- di: Mi -- se --
+	re -- re no -- %10
+	bis. A -- gnus De --
+	i, qui
+	tol -- lis pec -- ca --
+	ta mun -- di, pec --
+	ca -- ta, pec -- %15
+	ca -- ta
+	mun -- di:
+
+	Do -- na
+	no -- bis pa -- cem, pa -- %20
+	_ _ _ _ _
+	cem, pa -- cem, pa --
+	_ _ _
+	cem, pa -- cem, pa -- cem,
+	do -- na no -- %25
+	bis pa -- cem, pa -- cem,
+	pa -- cem, do -- na
+	no -- bis pa -- cem, pa --
+	_ _ cem, pa --
+	cem, pa -- cem, pa -- %30
+	cem, pa --
+	cem, pa -- cem, pa -- cem,
+	pa -- cem, pa --
+	cem, pa -- cem, pa --
+	cem, pa -- cem. %35 FINIS
+}

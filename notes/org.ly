@@ -712,13 +712,84 @@ BenedictusBassFigures = \figuremode {
 	r %42 finis
 }
 
-% Organo = {
-% 	\relative c {
-% 		\clef bass
-%
-% 	}
-% }
-%
-% BassFigures = \figuremode {
-%
-% }
+AgnusDeiOrgano = {
+	\relative c {
+		\clef bass
+		\key d \major \time 4/4 \tempoAgnusDei
+		\mvTr d2.\p-\solo cis4
+		d r8 cis h4 r8 a
+		gis2 a8 a'16 h cis8 d
+		g, fis e a d, cis h e
+		a4. gis8 a2 %5
+		d,4 r r2
+		R1*4 %10
+		r2 r4 \mvTr d\fE-\tutti
+		d2 r4 d
+		a2 r4 a'
+		fis eis fis2
+		r4 fis h, e %15
+		r e a, d \noBreak
+		\tempoAgnusDeiFinis a1\fermata \bar "||"
+		\clef treble \time 4/4 \tempoDona \newSpacingSection
+		<< {
+			R1
+			r2 d''4 d
+			cis8 a r e' cis a r h %20
+			cis a16 h cis d e8
+		} \\ {
+			a,4 a fis8 d r a'
+			fis d r e fis d16 e fis8 g
+			a a gis e r a gis e %20
+			a4. g8
+		} >> \clef bass a,4 a
+		fis8 d r a' fis d r e
+		fis d16 e fis g a8~ a4 gis
+		a8 a gis e r a gis e
+		a a4 g8 fis h,4 ais8 %25
+		h h' ais fis r h ais fis
+		h, h'4 a8 gis e16 fis gis8 e
+		r a gis e r a gis e
+		r a ais fis h h ais fis
+		r h ais fis r h e, a %30
+		d, g cis, d a a'4-\markup \remark "pleno org." a8
+		fis d r a' fis d r \once \tieDashed a'~
+		a g4 fis8 e d a4
+		d a d a
+		d a' d, r\fermata \bar "|." %35 FINIS
+	}
+}
+
+AgnusDeiBassFigures = \figuremode {
+	r2 <4 2>4 <[\t \t]>
+	r4. <6>8 <5>4. <[\t]>8
+	<6 5>2 <5 3>
+	r4. <7>8 r4 <5>8 <7 _+>
+	<5 3>4 <6 4>8 <\t \t> <6 4>4 <5 3> %5
+	r1
+	r1*4 %10
+	r1
+	<6 4+ 2>2. <\t \t \t>4
+	<5>1
+	<7 _+>4 <7 _+> \bo <[6 4]>8 \bc <[5 _+]>4.
+	r4 <5 _!> <7 _+> <_!> %15
+	r <5 3> <7>2
+	<6 4>4 <5 3>8 <4 2> <5 3>2
+	r1
+	r
+	r %20
+	r2 \bo <[6 5]>8 <\t 4> <5 \t> \bc <[\t 3]>
+	<6>2 q4. <[6]>8
+	\bo <[7]> <3> \bc <[6]>4 <4 2> <6>
+	r <6>8 <_+> r4 <[6]>8 <_+>
+	<5 3>4. <[6]>8 <7 _+> <5 3>4 <6>8 %25
+	<_!>4 <6>8 <_+> r4 <[6]>8 <_+>
+	<5 3>4. <[6]>8 <6>4. <[_+]>8
+	r4 <[6]>8 <_+> r4 <[6]>8 <_+>
+	r4 <6>8 <[_+]> <_!>4 <[6]>8 <_+>
+	r4 <[6]>8 <_+> r4 <[6]>8 <3> %30
+	<7> <[7]> <6>4 r2
+	<6>2 q
+	<4 2>8 <6> <4 2> <6> q4 \bo <[5] 4>8 \bc <[\t] 3>
+	r1
+	r %35 FINIS
+}

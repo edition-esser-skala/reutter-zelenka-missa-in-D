@@ -259,3 +259,43 @@ BenedictusViola = {
 		d2 d\fermata \bar "|." %42 finis
 	}
 }
+
+AgnusDeiViola = {
+	\relative c' {
+		\clef alto
+		\key d \major \time 4/4 \tempoAgnusDei
+		d2.\p^\tenuto cis4
+		d r8 cis h4 r8 a
+		gis2 a
+		R1*2 %5
+		d4\mpE^\tenuto r d r
+		cis r cis r
+		ais r ais r
+		h r h r
+		a! r cis r %10
+		fis, r d'8\f d d d
+		gis gis gis gis gis gis gis gis
+		a e e e a, a a a'
+		ais ais h gis fis fis fis fis
+		cis' cis fis, fis fis fis g g %15
+		h h e, e e e fis fis \noBreak
+		\tempoAgnusDeiFinis a a, a a a2\fermata \bar "||"
+		\time 4/4 \tempoDona R1*3 %20
+		r2 a'4-! a-!
+		fis8 d r a' fis d r e
+		fis d16 e fis g a8 r e4 e8
+		cis a r e' cis a r h
+		cis a16 h cis d e4 d cis8 %25
+		r h' ais fis r h ais fis
+		h, h'4 a8 gis e16 fis gis8 e
+		r a gis e r a gis e
+		r a ais fis h h ais fis
+		r h ais fis r h e, a %30
+		d, g cis, d a a'4 a8
+		fis d r a' fis d r a'~
+		a g4 fis8 e d a' a,
+		d fis a a, d fis a a,
+		d4 a a r\fermata \bar "|." %35 FINIS
+
+	}
+}
