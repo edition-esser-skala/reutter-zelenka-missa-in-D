@@ -1,0 +1,16 @@
+composer: Reutter der Jüngere, Georg
+title: Missa in D
+id: (D-Dl Mus.2979-D-4)
+genre: mass
+scoring: S, A, T, B (solo), S, A, T, B (coro), [2 ob], 2 clno (D), timp (D–A), 2 vl, vla, b, org
+sources:
+  1:
+    siglum: D-Dl
+    shelfmark: Mus.2979-D-4
+    type: manuscript copy
+    date: ca. 1739
+    rism: 212006928
+    url: http://digital.slub-dresden.de/id426603443
+github: reutter-zelenka-missa-in-D
+imslp: Missa_in_D_(Reutter,_Georg)
+notes: extended/arranged by Jan Dismas Zelenka
